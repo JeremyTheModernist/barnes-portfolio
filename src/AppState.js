@@ -11,6 +11,17 @@ class AppState extends React.Component{
       title: null,
       description:null
     },
+    overviews: [
+      {
+        id:'tres solutions',
+        columnOne: 'here is some phenomenal information that showcases the wonderful work being done in all capacities.',
+        columnTwo: 'here is some phenomenal information that showcases the wonderful work being done in all capacities.'
+      },
+      {
+        id:'woven magazine',
+        content:"here is some new content!"
+      }
+    ],
     information: [
       {
         id:1,
@@ -303,6 +314,20 @@ class AppState extends React.Component{
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59mjpg',
+          }
+        }
+      },
+      {
+        id:30,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'http://drp.mk/i/0vT25pnn4K.jpg',
+          breakpointImgs: {
+            large: 'http://drp.mk/i/0vT25pnn4K.jpg',
+            medium: 'http://drp.mk/i/0vT25pnn4K.jpg',
+            small: 'http://drp.mk/i/0vT25pnn4K.jpg',
           }
         }
       },

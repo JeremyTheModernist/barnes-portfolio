@@ -10,7 +10,7 @@ function Navigation(){
             <div className="navigation">
               <ul className="navigation__layout">
                 <li className="navigation__item navigation__item--title">
-                  Margie McInarnay
+                  Jeremy Barnes
                 </li>
                 <li className="navigation__item" onClick={() => context.toggleAbout()}>
                   About

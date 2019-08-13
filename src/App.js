@@ -15,6 +15,8 @@ import Footer from './components/Footer/Footer.js'
 import Quote from './components/Quote/Quote.js'
 import Fullscreen from './components/Fullscreen/Fullscreen.js'
 import About from './components/About/About.js'
+import Splash from './components/Splash/Splash.js'
+import ProjectOverview from './components/ProjectOverview/ProjectOverview.js'
 
 class App extends React.Component{
 
@@ -26,14 +28,10 @@ class App extends React.Component{
           <About/>
           <Navigation/>
           <GridBox>
-            <XSmallImage id={1} empty={true}/>
-            <Quote colNum={5} styleName="quote__intro">
-              <span className="quote__intro--title">Hello and Welcome,</span><br/><br/>
-              Margie McInarnay is a painter living and working out of Alabama. Her work includes a range of
-              subjects from detailed botany to rural architecture. Her pieces are often themed around tropical locations.
-              All work is available for purchase.
-            </Quote>
+            <Splash/>
 
+            <XXLargeImage id={30} noMargin="noBottom"/>
+            <ProjectOverview id={'tres solutions'}/>
 
             <SmallImage id={1}/>
             <LargeImage id={3}/>
