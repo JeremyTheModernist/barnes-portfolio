@@ -14,12 +14,20 @@ class AppState extends React.Component{
     overviews: [
       {
         id:'tres solutions',
-        columnOne: 'here is some phenomenal information that showcases the wonderful work being done in all capacities.',
-        columnTwo: 'here is some phenomenal information that showcases the wonderful work being done in all capacities.'
+        columnOneClient: 'Client: Tres Vessel Solutions.',
+        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content Creation.',
+        columnTwo: 'Tres Solutions is a Vessel Analytics company, supplying data analytics to companies across the world.'
       },
       {
         id:'woven magazine',
         content:"here is some new content!"
+      }
+    ],
+    breakdowns: [
+      {
+        id:'tres solutions',
+        columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves discussing content, experience, and visual communication with equal impact.',
+        columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
       }
     ],
     information: [

@@ -9,6 +9,7 @@
     display:flex;
     list-style-type: none;
     border-bottom: 1px solid darken($primary-color,50%);
+    font-weight:bold;
   }
   &__item{
     padding-top:20px;

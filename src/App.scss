@@ -1,16 +1,19 @@
+
+@import "./utilities/MyFontsWebfontsKit.css";
 @import "./utilities/variables.scss";
 @import "./components/GridBox/GridBox.scss";
 @import "./components/Fullscreen/Fullscreen.scss";
 @import "./components/Navigation/Navigation.scss";
 @import "./components/About/About.scss";
 @import "./components/Footer/Footer.scss";
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:300&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
 body{
   margin:0;
-  background-color:black;
+  font-family: HelveticaNowText-Medium;
+  background-color:#161616;
  -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased;
 }

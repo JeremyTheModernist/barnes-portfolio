@@ -17,6 +17,7 @@ import Fullscreen from './components/Fullscreen/Fullscreen.js'
 import About from './components/About/About.js'
 import Splash from './components/Splash/Splash.js'
 import ProjectOverview from './components/ProjectOverview/ProjectOverview.js'
+import ProjectBreakdown from './components/ProjectBreakdown/ProjectBreakdown.js'
 
 class App extends React.Component{
 
@@ -35,6 +36,8 @@ class App extends React.Component{
 
             <SmallImage id={1}/>
             <LargeImage id={3}/>
+
+            <ProjectBreakdown id={'tres solutions'}/>
 
 
 

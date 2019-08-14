@@ -30,12 +30,12 @@ $grid__cols: 6;
   z-index:1;
   .splash{
     color: $primary-color;
-    font-family:helvetica;
   }
   .splash__facts{
     @include css-reset;
     list-style-type:none;
-    font-size:map-get($type-ramp,md);
+    font-size:1.3em;
+    font-family:HelveticaNowText-Bold;
     line-height:map-get($leading-ramp,m);
     width:100%;
     display:flex;
@@ -44,26 +44,61 @@ $grid__cols: 6;
     border-top: 1px solid darken($primary-color,50%);
     @include breakpoint(medium){
       flex-direction:row nowrap;
+      font-size:map-get($type-ramp,md);
     }
     li{
       max-width:100%;
+      margin-right:$grid-margin*2.5;
+      margin-top:map-get($margin-ramp,sm);
       @include breakpoint(medium){
         max-width:28%;
+        margin-right:$grid-margin;
       }
-      margin-right:$grid-margin;
-      margin-top:map-get($margin-ramp,sm);
       &:last-child{
-        margin-left:auto;
+        @include breakpoint(medium){
+          margin-left:auto;
+          max-width:28%;
+        }
         margin-right:0;
       }
+    }
+  }
+  .splash__header{
+    @include css-reset;
+    font-family:HelveticaNowDisplay-XBd;
+    font-size:map-get($type-ramp,xl)*2;
+    margin-top:map-get($margin-ramp,xl);
+    line-height:.85em;
+    @include breakpoint(large){
+      font-size:260px;
     }
   }
   .ProjectOverview{
     color:white;
     width:100%;
     font-size:1.3em;
-    font-weight:600;
-    letter-spacing:.05em;
+    font-family:HelveticaNowMicro-Medium;
+    line-height: map-get($leading-ramp,m);
+    margin:map-get($margin-ramp,md) 0 map-get($margin-ramp,xl) 0;
+    display:flex;
+    flex-flow:row wrap;
+    &__Column{
+      max-width:100%;
+      margin-bottom:20px;
+      margin-left:4%;
+      @include breakpoint(medium){
+        width:44%;
+      }
+      @include breakpoint(large){
+        width:28%;
+      }
+    }
+  }
+  .ProjectBreakdown{
+    color:white;
+    width:100%;
+    font-size:map-get($type-ramp,md);
+    letter-spacing:.025em;
     line-height: map-get($leading-ramp,m);
     margin:map-get($margin-ramp,xl) 0;
     display:flex;
@@ -73,22 +108,11 @@ $grid__cols: 6;
       margin-bottom:20px;
       margin-left:4%;
       @include breakpoint(medium){
-        max-width:44%;
+        width:44%;
       }
       @include breakpoint(large){
-        max-width:28%;
+        width:28%;
       }
-    }
-  }
-  .splash__header{
-    @include css-reset;
-    font-size:map-get($type-ramp,xl)*2;
-    font-weight:bold;
-    margin-top:map-get($margin-ramp,xl);
-    line-height:.85em;
-    letter-spacing:-.025em;
-    @include breakpoint(large){
-      font-size:260px;
     }
   }
   .grid__quote{
@@ -96,7 +120,7 @@ $grid__cols: 6;
     max-width:100%;
     font-size:map-get($type-ramp,md-mobile);
     color:$primary-color;
-    font-family:$noto;
+    font-family:helvetica;
     margin-top:map-get($margin-ramp,xl);
     margin-bottom:map-get($margin-ramp,xl);
     line-height: map-get($leading-ramp,m);
