@@ -44,7 +44,8 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
             <Quote colNum={5}>
               When we came to Jeremy we knew we needed a redesign. We weren’t sure exactly which direction to take it, but Jeremy ran with it, and brought us a complete rebrand and identity to boot for every piece.
-              — Aaron, Tres Solutions
+              <br/><br/>
+              <span className={"grid__quote--author"}>— Aaron Holton, Tres Director</span>
             </Quote>
 
             <MediumImage id={5}/>

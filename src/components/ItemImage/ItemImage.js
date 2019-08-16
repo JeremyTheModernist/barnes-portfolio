@@ -13,10 +13,13 @@ function ItemImage(props){
                 <div className="item__image" key={item.id}
                   onClick={() => context.toggleFullscreen({src:item.content.src,title:item.content.title,description:item.content.description})}>
                   <picture>
+                    {/* the source media code only works if I'm not using the Lazy Load Image  */}
                     <source media="(min-width:1024px)" srcset={`${item.content.breakpointImgs.large}`}/>
                     <source media="(min-width:500px)" srcset={`${item.content.breakpointImgs.medium}`}/>
                     <source media="(min-width:320px)" srcset={`${item.content.breakpointImgs.small}`}/>
-                    <LazyLoadImage effect="opacity" src={item.content.breakpointImgs.large}/>
+                    <img src={`${item.content.breakpointImgs.large}`}/>
+                    {/* Use Lazy Load image if you want to load resources in one at a time. */}
+                    {/* <LazyLoadImage effect="opacity" src={item.content.breakpointImgs.large}/> */}
                   </picture>
                 </div>
               :
