@@ -1,6 +1,7 @@
 import React from 'react';
 import Consumer from '../../AppState.js'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 function ItemImage(props){
@@ -12,6 +13,7 @@ function ItemImage(props){
               return props.id == item.id ?
                 <div className="item__image" key={item.id}
                   onClick={() => context.toggleFullscreen({src:item.content.src,title:item.content.title,description:item.content.description})}>
+                  <LazyLoadComponent effect="opacity">
                   <picture>
                     {/* the source media code only works if I'm not using the Lazy Load Image  */}
                     <source media="(min-width:1024px)" srcset={`${item.content.breakpointImgs.large}`}/>
@@ -21,6 +23,7 @@ function ItemImage(props){
                     {/* Use Lazy Load image if you want to load resources in one at a time. */}
                     {/* <LazyLoadImage effect="opacity" src={item.content.breakpointImgs.large}/> */}
                   </picture>
+                </LazyLoadComponent>
                 </div>
               :
               null
