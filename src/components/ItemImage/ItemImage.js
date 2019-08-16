@@ -11,8 +11,7 @@ function ItemImage(props){
         (context) => {
           return context.information.map((item) => {
               return props.id == item.id ?
-                <div className="item__image" key={item.id}
-                  onClick={() => context.toggleFullscreen({src:item.content.src,title:item.content.title,description:item.content.description})}>
+                <div className="item__image" key={item.id}>
                   <LazyLoadComponent threshold={650}>
                   <picture>
                     {/* the source media code only works if I'm not using the Lazy Load Image  */}

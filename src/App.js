@@ -13,7 +13,6 @@ import XXLargeImage from './components/Image-XXL/XXL-Image.js';
 import Navigation from './components/Navigation/Navigation.js'
 import Footer from './components/Footer/Footer.js'
 import Quote from './components/Quote/Quote.js'
-import Fullscreen from './components/Fullscreen/Fullscreen.js'
 import About from './components/About/About.js'
 import Splash from './components/Splash/Splash.js'
 import ProjectOverview from './components/ProjectOverview/ProjectOverview.js'
@@ -25,7 +24,6 @@ class App extends React.Component{
     return (
       <AppState>
         <div className="App">
-          <Fullscreen/>
           <About/>
           <Navigation/>
           <GridBox>
@@ -61,6 +59,11 @@ class App extends React.Component{
 
             <MediumImage id={8}/>
             <MediumImage id={3} empty={true}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <Quote colNum={5}>
+              When I design, I strive to create with a system mindset, avoiding elements that would appear in isolation. My aim is to provide a collection of reusable parts that can be reconfigured with endless possibilities.
+            </Quote>
 
             <MediumImage id={9}/>
             <MediumImage id={10}/>

@@ -15,7 +15,7 @@ class AppState extends React.Component{
       {
         id:'tres solutions',
         columnOneClient: 'Client: Tres Vessel Solutions.',
-        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content Creation.',
+        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content.',
         columnTwo: 'Tres Solutions is a Vessel Analytics company, supplying data analytics to companies across the world.'
       },
       {
@@ -126,9 +126,9 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/q_52/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_55/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_52/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_55/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
           }
@@ -289,32 +289,6 @@ class AppState extends React.Component{
         }
       },
     ],
-    toggleFullscreen: (payload) => {
-      this.setState((state) => {
-        if(!state.fullscreen){
-          return {
-            fullscreen:!state.fullscreen,
-            selected: {
-              src: payload.src,
-              title: payload.title,
-              description:payload.description
-            }
-          }
-        }
-        else{
-          return {
-            fullscreen:!state.fullscreen,
-            selected: {
-              src: null,
-              title: null,
-              description:null
-            }
-          }
-        }
-
-      })
-      console.log('received payload',payload)
-    },
     toggleAbout: () => {
       this.setState((state) => {
         return {

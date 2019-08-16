@@ -37,7 +37,8 @@ $breakpoints:(
 
 $primary-color:white;
 $secondary-color:darken($primary-color,40%);
-$highlight-color:#2E998D;
+// $highlight-color:#33FFDD;
+$highlight-color:darken($primary-color,40%);
 
 $roboto: 'Roboto', sans-serif;
 $noto: 'Noto Serif TC', serif;

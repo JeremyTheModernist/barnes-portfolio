@@ -1,13 +1,14 @@
 .footer{
   max-width:1600px;
   margin:auto;
+  color:$primary-color;
   .footer__container{
     margin:4% 4% 8% 4%;
 
   }
   .footer__contact{
     font-size:map-get($type-ramp,md-mobile);
-    font-family:$noto;
+    font-family:HelveticaNowText-Medium;
     line-height:map-get($leading-ramp,l);
     text-align:center;
     width:100%;
