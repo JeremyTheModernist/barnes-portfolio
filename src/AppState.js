@@ -25,321 +25,269 @@ class AppState extends React.Component{
     ],
     breakdowns: [
       {
-        id:'tres solutions',
-        columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves discussing content, experience, and visual communication with equal impact.',
+        id:'tres solutions 1',
+        columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
         columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+      },
+      {
+        id:'tres solutions 2',
+        columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the logos that came out of this exploration, marks of modernity and precision. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
+        columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
       }
     ],
     information: [
       {
         id:1,
         content: {
-          title:'Blue and Gold Macaw',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565901474/barnes-portfolio/00_Tres-Laptop_gqdxwi.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565901474/barnes-portfolio/00_Tres-Laptop_gqdxwi.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565901474/barnes-portfolio/00_Tres-Laptop_gqdxwi.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565901474/barnes-portfolio/00_Tres-Laptop_gqdxwi.jpg',
           }
         }
       },
       {
         id:2,
         content: {
-          title:'Specefic Title',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
           }
         }
       },
       {
         id:3,
         content: {
-          title:'Church on the North Shore II',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60//v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg'
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
           }
         }
       },
       {
         id:4,
         content: {
-          title:'The Lure of Leaves',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'ABLAZE 2016 Merit Award Brush With Success, Viera, Florida',
-          src: 'https://drp.mk/i/FVwkbTbF4j.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
           breakpointImgs: {
-            large: 'https://drp.mk/i/FVwkbTbF4j.jpg',
-            medium: 'https://drp.mk/i/FVwkbTbF4j.jpg',
-            small: 'https://drp.mk/i/FVwkbTbF4j.jpg'
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
           }
         }
       },
       {
         id:5,
         content: {
-          title:'Sidewalk Saunter',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg'
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
           }
         }
       },
       {
         id:6,
         content: {
-          title:'Paved Paradise',
-          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
-          description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg'
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
           }
         }
       },
       {
         id:7,
         content: {
-          title:'Key West Christmas Palm',
-          subtitle: 'Watercolor Painting Original 28 x 22 Giclees available',
-          description: 'Watercolor Painting Original 28 x 22 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
           }
         }
       },
       {
         id:8,
         content: {
-          title:'Ancient Corinth',
-          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
-          description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
           }
         }
       },
       {
         id:9,
         content: {
-          title:'Right-Side Up',
-          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
-          description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
           }
         }
       },
       {
         id:10,
         content: {
-          title:'Sidewalk Saunter',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
           }
         }
       },
       {
         id:11,
         content: {
-          title:'Library of Celsus, Ephesus',
-          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
-          description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
           }
         }
       },
       {
         id:12,
         content: {
-          title:'Courtyard in Poipu',
-          subtitle: '2013 Merit Award Brush With Success, Viera, Florida',
-          description: 'Watercolor Painting Original 16 X 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
           }
         }
       },
       {
         id:13,
         content: {
-          title:'Cabana Canopy',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561668785/painters-folio/Vertical/Cabana_Canopy_ezfyuh.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668785/painters-folio/Vertical/Cabana_Canopy_ezfyuh.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668785/painters-folio/Vertical/Cabana_Canopy_ezfyuh.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668785/painters-folio/Vertical/Cabana_Canopy_ezfyuh.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
           }
         }
       },
       {
         id:14,
         content: {
-          title:'Pineapple on the Banana River',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
           }
         }
       },
       {
         id:15,
         content: {
-          title:'Plumes in Bloom',
-          subtitle: 'Roseate Spoonbill, 2019 Montgomery City Hall Exhibition Montgomery, Alabama',
-          description: 'Watercolor Painting Original 16 X 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
           }
         }
       },
       {
         id:16,
         content: {
-          title:`Hoo's Hideout`,
-          subtitle: '2019 Montgomery City Hall Exhibition, Montgomery, Alabama',
-          description: 'Acrylic Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
           }
         }
       },
       {
         id:17,
         content: {
-          title:'The Lure of Leaves',
-          subtitle: '2014 Merit Award Brush With Success, Viera, Florida 2016 Merit Award 100% Florida Fifth Avenue Art Gallery, Melbourne, Florida',
-          description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
           }
         }
       },
       {
         id:18,
         content: {
-          title:'Color Therapy',
-          subtitle: '2017 Merit Award Brush With Success, Viera, Florida',
-          description: 'Watercolor Painting Original 20 X 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
-          breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
-          }
-        }
-      },
-      {
-        id:19,
-        content: {
-          title:'Ablaze',
-          subtitle: '2016 Merit Award Brush With Success, Viera, Florida',
-          description: 'Acrylic Painting Original 16 X 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
-          breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
-          }
-        }
-      },
-      {
-        id:20,
-        content: {
-          title:'Naturometry',
-          subtitle: '2019 43rd Annual Montgomery Art Guild Museum Exhibition Montgomery, Alabama',
-          description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
-          breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
-          }
-        }
-      },
-      {
-        id:21,
-        content: {
-          title:'Church on the Northshore I',
-          subtitle: 'Watercolor Painting Original 16 X 20 Giclees available',
-          description: 'Watercolor Painting Original 16 X 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
-          breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59mjpg',
-          }
-        }
-      },
-      {
-        id:30,
-        content: {
           title:null,
           subtitle: null,
           description: null,
-          src: 'http://drp.mk/i/0vT25pnn4K.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
           breakpointImgs: {
-            large: 'http://drp.mk/i/0vT25pnn4K.jpg',
-            medium: 'http://drp.mk/i/0vT25pnn4K.jpg',
-            small: 'http://drp.mk/i/0vT25pnn4K.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
           }
         }
       },
-
     ],
     toggleFullscreen: (payload) => {
       this.setState((state) => {

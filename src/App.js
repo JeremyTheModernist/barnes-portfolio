@@ -31,48 +31,58 @@ class App extends React.Component{
           <GridBox>
             <Splash/>
 
-            <XXLargeImage id={30} noMargin="noBottom"/>
+            <XXLargeImage id={1} noMargin="noBottom"/>
             <ProjectOverview id={'tres solutions'}/>
 
-            <SmallImage id={1}/>
-            <LargeImage id={3}/>
+            <LargeImage id={2}/>
+            <SmallImage id={1} empty={true}/>
 
-            <ProjectBreakdown id={'tres solutions'}/>
-
-
-
-            <MediumImage id={6}/>
+            <MediumImage id={3}/>
             <XSmallImage id={1} empty={true}/>
-            <SmallImage id={10}/>
-
-
-
-            <XSmallImage id={1} empty={true}/>
-            <LargeImage id={7}/>
-            <XSmallImage id={1} empty={true}/>
-
-            <MediumImage id={8}/>
-            <MediumImage id={9}/>
+            <SmallImage id={4}/>
 
             <XSmallImage id={1} empty={true}/>
             <Quote colNum={5}>
-              I have always obsessed over details. When I paint, I am constantly
-              examining all of the intracies of my subject. Where is the light?
-              What texture is it? How do all of these attributes come together?
+              When we came to Jeremy we knew we needed a redesign. We weren’t sure exactly which direction to take it, but Jeremy ran with it, and brought us a complete rebrand and identity to boot for every piece.
+              — Aaron, Tres Solutions
             </Quote>
+
+            <MediumImage id={5}/>
+            <MediumImage id={3} empty={true}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <XLargeImage id={6}/>
+
+            <ProjectBreakdown id={'tres solutions 1'}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <XLargeImage id={7}/>
+
+            <MediumImage id={8}/>
+            <MediumImage id={3} empty={true}/>
+
+            <MediumImage id={9}/>
+            <MediumImage id={10}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <XLargeImage id={11}/>
 
             <MediumImage id={12}/>
             <XSmallImage id={1} empty={true}/>
             <SmallImage id={13}/>
 
             <XSmallImage id={1} empty={true}/>
-            <MediumImage id={21}/>
-            <XSmallImage id={1} empty={true}/>
+            <LargeImage id={14}/>
             <XSmallImage id={1} empty={true}/>
 
-            <MediumImage id={15}/>
             <XSmallImage id={1} empty={true}/>
-            <SmallImage id={14}/>
+            <LargeImage id={15}/>
+            <XSmallImage id={1} empty={true}/>
+
+            <ProjectBreakdown id={'tres solutions 2'}/>
+
+            <SmallImage id={1} empty={true}/>
+            <LargeImage id={16}/>
 
 
             <XSmallImage id={1} empty={true}/>
@@ -80,22 +90,8 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
 
             <XSmallImage id={1} empty={true}/>
-            <LargeImage id={16}/>
+            <LargeImage id={18}/>
             <XSmallImage id={1} empty={true}/>
-
-            <MediumImage id={11}/>
-            <MediumImage id={18}/>
-
-            <XSmallImage id={1} empty={true}/>
-            <Quote colNum={5}>
-            There is something extraordinary about stepping into a new place
-            filled with its own unique beauty of flora and fauna that inspires
-            and motivates me to capture the emotions it invokes.
-            </Quote>
-
-            <MediumImage id={19}/>
-            <XSmallImage id={1} empty={true}/>
-            <SmallImage id={20}/>
 
           </GridBox>
           <Footer/>

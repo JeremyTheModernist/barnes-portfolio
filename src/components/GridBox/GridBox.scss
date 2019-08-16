@@ -79,11 +79,11 @@ $grid__cols: 6;
     font-size:1.3em;
     font-family:HelveticaNowMicro-Medium;
     line-height: map-get($leading-ramp,m);
-    margin:map-get($margin-ramp,md) 0 map-get($margin-ramp,xl) 0;
+    margin:map-get($margin-ramp,xs) 0 map-get($margin-ramp,xl) 0;
     display:flex;
     flex-flow:row wrap;
     &__Column{
-      max-width:100%;
+      width:92%;
       margin-bottom:20px;
       margin-left:4%;
       @include breakpoint(medium){
@@ -104,7 +104,7 @@ $grid__cols: 6;
     display:flex;
     flex-flow:row wrap;
     &__Column{
-      max-width:100%;
+      width:92%;
       margin-bottom:20px;
       margin-left:4%;
       @include breakpoint(medium){

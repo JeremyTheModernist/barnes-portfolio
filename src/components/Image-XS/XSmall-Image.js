@@ -2,7 +2,7 @@ import React from 'react';
 import ItemInformation from '../ItemInformation/ItemInformation.js'
 import ItemImage from '../ItemImage/ItemImage.js'
 
-function SmallImage(props){
+function XSmallImage(props){
   return(
     props.empty ?
     <div className="grid__item grid__item--empty col-1">
@@ -15,4 +15,4 @@ function SmallImage(props){
   )
 }
 
-export default SmallImage;
+export default XSmallImage;
