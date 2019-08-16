@@ -145,7 +145,7 @@ $grid__cols: 6;
     }
   }
   .grid__item{
-    cursor:pointer;
+    // cursor:pointer;
     max-width: 100%;
     background-color: rgba(0,0,0,0);
     height:auto;
@@ -179,14 +179,14 @@ $grid__cols: 6;
     color:$secondary-color;
     line-height:map-get($leading-ramp,m);
   }
-  .item__image{
-    cursor:pointer;
-  }
+  // .item__image{
+  //   cursor:pointer;
+  // }
   .item__image img{
     max-width:100%;
     height:auto;
     margin-bottom:map-get($margin-ramp,md);
-    @include image-states;
+    // @include image-states;
   }
   .noBottom{
     margin-bottom:0;

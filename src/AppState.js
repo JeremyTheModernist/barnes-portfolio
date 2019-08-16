@@ -56,9 +56,9 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2200,q_35/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_42/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2200,q_35/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_42/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900665/barnes-portfolio/09_Tres-Home_o4ffxe.jpg',
           }
@@ -73,8 +73,8 @@ class AppState extends React.Component{
           src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/q_35/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900719/barnes-portfolio/15_Tres-Careers-Tablet_dsmoao.jpg',
           }
         }
       },
@@ -87,8 +87,8 @@ class AppState extends React.Component{
           src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900733/barnes-portfolio/28_Tres-Home-Mobile_hityij.jpg',
           }
         }
       },
@@ -101,8 +101,8 @@ class AppState extends React.Component{
           src: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_40/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_40/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1400,q_35/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1400,q_35/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900761/barnes-portfolio/16_Tres-Careers-Tablet_aa6zgr.jpg',
           }
         }
       },
@@ -115,8 +115,8 @@ class AppState extends React.Component{
           src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
           }
         }
       },
@@ -126,11 +126,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_52/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_52/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900794/barnes-portfolio/02_Tres-Careers_gve7kq.jpg',
           }
         }
       },
@@ -140,11 +140,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_35/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_35/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900808/barnes-portfolio/18_Tres-News-Tablet_s78rmg.jpg',
           }
         }
       },
@@ -154,11 +154,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900820/barnes-portfolio/45-Tres-Product-Tablet_dogume.jpg',
           }
         }
       },
@@ -168,11 +168,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_355/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900831/barnes-portfolio/40-Tres-Product-Desktop_kofzxd.jpg',
           }
         }
       },
@@ -182,11 +182,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_355/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565912561/barnes-portfolio/36_Tres-Support-Desktop_srnzko.jpg',
           }
         }
       },
@@ -196,11 +196,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35//v1565900857/barnes-portfolio/06_Tres-News_nft0rz.jpg',
           }
         }
       },
@@ -210,11 +210,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900869/barnes-portfolio/31_Tres-Home-Mobile_omrqli.jpg',
           }
         }
       },
@@ -224,11 +224,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900887/barnes-portfolio/26_Tres-Logos_e1vifb.jpg',
           }
         }
       },
@@ -238,11 +238,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900881/barnes-portfolio/27_Tres-Logos_i5wxh6.jpg',
           }
         }
       },
@@ -252,11 +252,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_45/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_45/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900904/barnes-portfolio/46_Tres-System_lym6xh.jpg',
           }
         }
       },
@@ -266,11 +266,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900913/barnes-portfolio/25_Tres-Typeface_vgyz1d.jpg',
           }
         }
       },
@@ -280,11 +280,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
           }
         }
       },

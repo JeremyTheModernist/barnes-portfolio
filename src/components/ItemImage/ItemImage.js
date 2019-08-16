@@ -13,7 +13,7 @@ function ItemImage(props){
               return props.id == item.id ?
                 <div className="item__image" key={item.id}
                   onClick={() => context.toggleFullscreen({src:item.content.src,title:item.content.title,description:item.content.description})}>
-                  <LazyLoadComponent effect="opacity">
+                  <LazyLoadComponent threshold={650}>
                   <picture>
                     {/* the source media code only works if I'm not using the Lazy Load Image  */}
                     <source media="(min-width:1024px)" srcset={`${item.content.breakpointImgs.large}`}/>
