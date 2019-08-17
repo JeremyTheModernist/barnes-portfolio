@@ -57,16 +57,18 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
             <XLargeImage id={7}/>
 
+            {/* <MediumImage id={9}/> */}
             <MediumImage id={8}/>
-            <MediumImage id={3} empty={true}/>
+            <MediumImage id={10}/>
+            {/* <MediumImage id={19}/> */}
 
-            <XSmallImage id={1} empty={true}/>
+            {/* <XSmallImage id={1} empty={true}/>
             <Quote colNum={5}>
               When I design, I strive to create with a system mindset, avoiding elements that would appear in isolation. My aim is to provide a collection of reusable parts that can be reconfigured with endless possibilities.
-            </Quote>
+            </Quote> */}
 
-            <MediumImage id={9}/>
-            <MediumImage id={10}/>
+            {/* <MediumImage id={8}/>
+            <MediumImage id={1} empty={true}/> */}
 
             <XSmallImage id={1} empty={true}/>
             <XLargeImage id={11}/>
@@ -79,9 +81,18 @@ class App extends React.Component{
             <LargeImage id={14}/>
             <XSmallImage id={1} empty={true}/>
 
+
+            <XSmallImage id={1} empty={true}/>
+            <XLargeImage id={20}/>
+
+
+            <XSmallImage id={1} empty={true}/>
+            <XLargeImage id={21}/>
+
             <XSmallImage id={1} empty={true}/>
             <LargeImage id={15}/>
             <XSmallImage id={1} empty={true}/>
+
 
             <ProjectBreakdown id={'tres solutions 2'}/>
 

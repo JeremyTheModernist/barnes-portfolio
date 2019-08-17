@@ -15,7 +15,7 @@ class AppState extends React.Component{
       {
         id:'tres solutions',
         columnOneClient: 'Client: Tres Vessel Solutions.',
-        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content.',
+        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content. Disclaimer: I do not own the following photographs, and many exist for mock purposes only.',
         columnTwo: 'Tres Solutions is a Vessel Analytics company, supplying data analytics to companies across the world.'
       },
       {
@@ -285,6 +285,48 @@ class AppState extends React.Component{
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+          }
+        }
+      },
+      {
+        id:19,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/01_Tres-Careers_0_mcskz3.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/01_Tres-Careers_0_mcskz3.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/01_Tres-Careers_0_mcskz3.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/01_Tres-Careers_0_mcskz3.jpg',
+          }
+        }
+      },
+      {
+        id:20,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_50/v1565900927/barnes-portfolio/47_Tres-Mockup_iijui7.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_50/v1565900927/barnes-portfolio/47_Tres-Mockup_iijui7.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/47_Tres-Mockup_iijui7.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/47_Tres-Mockup_iijui7.jpg',
+          }
+        }
+      },
+      {
+        id:21,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900927/barnes-portfolio/48_Tres-Mockup_bxu6o3.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900927/barnes-portfolio/48_Tres-Mockup_bxu6o3.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/48_Tres-Mockup_bxu6o3.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/48_Tres-Mockup_bxu6o3.jpg',
           }
         }
       },
