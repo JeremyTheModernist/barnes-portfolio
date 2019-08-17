@@ -15,8 +15,8 @@ class AppState extends React.Component{
       {
         id:'tres solutions',
         columnOneClient: 'Client: Tres Vessel Solutions.',
-        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content. Disclaimer: I do not own the following photographs, and many exist for mock purposes only.',
-        columnTwo: 'Tres Solutions is a Vessel Analytics company, supplying data analytics to companies across the world.'
+        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content.',
+        columnTwo: 'Tres Solutions is a Vessel Analytics company, supplying data analytics to shipping companies across the world. Disclaimer: I do not own the following photographs, and many exist for mock purposes only.'
       },
       {
         id:'woven magazine',
