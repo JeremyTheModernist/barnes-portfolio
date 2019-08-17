@@ -2,13 +2,14 @@
   width:100%;
   position:fixed;
   background-color: black;
+  border-bottom: 1px solid darken($primary-color,50%);
   z-index:5;
-  font-family:helvetica;
   &__layout{
     @include css-reset;
     display:flex;
+    max-width:1600px;
+    margin:auto;
     list-style-type: none;
-    border-bottom: 1px solid darken($primary-color,50%);
     font-weight:bold;
   }
   &__item{
