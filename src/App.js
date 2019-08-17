@@ -96,8 +96,9 @@ class App extends React.Component{
 
             <ProjectBreakdown id={'tres solutions 2'}/>
 
-            <SmallImage id={1} empty={true}/>
+            <XSmallImage id={1} empty={true}/>
             <LargeImage id={16}/>
+            <XSmallImage id={1} empty={true}/>
 
 
             <XSmallImage id={1} empty={true}/>

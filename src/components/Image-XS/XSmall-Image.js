@@ -10,7 +10,7 @@ function XSmallImage(props){
     :
     <div className="grid__item col-1">
       <ItemImage id={props.id}/>
-      <ItemInformation id={props.id}/>
+      {/* <ItemInformation id={props.id}/> */}
     </div>
   )
 }

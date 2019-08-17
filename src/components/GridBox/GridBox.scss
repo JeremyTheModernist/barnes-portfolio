@@ -149,8 +149,8 @@ $grid__cols: 6;
     max-width: 100%;
     background-color: rgba(0,0,0,0);
     height:auto;
-    margin-top:map-get($margin-ramp,md);
-    margin-bottom:map-get($margin-ramp,md);
+    margin-top:map-get($margin-ramp,xs);
+    margin-bottom:map-get($margin-ramp,xs);
     display:flex;
     flex-flow:column wrap;
     @include breakpoint(medium){

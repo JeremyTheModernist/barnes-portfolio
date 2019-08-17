@@ -6,7 +6,7 @@ function XXLargeImage(props){
   return(
     <div className={`grid__item col-6 ${props.noMargin}`}>
       <ItemImage id={props.id}/>
-      <ItemInformation id={props.id}/>
+      {/* <ItemInformation id={props.id}/> */}
     </div>
   )
 }

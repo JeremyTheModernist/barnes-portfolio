@@ -10,7 +10,7 @@ function MediumImage(props){
     :
     <div className="grid__item col-3">
       <ItemImage id={props.id}/>
-      <ItemInformation id={props.id}/>
+      {/* <ItemInformation id={props.id}/> */}
     </div>
   )
 }

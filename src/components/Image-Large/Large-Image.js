@@ -6,7 +6,7 @@ function LargeImage(props){
   return(
     <div className="grid__item col-4">
        <ItemImage id={props.id}/>
-       <ItemInformation id={props.id}/>
+       {/* <ItemInformation id={props.id}/> */}
     </div>
   )
 }
