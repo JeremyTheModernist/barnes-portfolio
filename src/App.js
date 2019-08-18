@@ -80,8 +80,8 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
             <XLargeImage id={11}/>
 
-            <XXLargeImage id={1}/>
-            
+            {/* <XXLargeImage id={1}/> */}
+
             <MediumImage id={12}/>
             <XSmallImage id={1} empty={true}/>
             <SmallImage id={13}/>
@@ -104,12 +104,46 @@ class App extends React.Component{
             <ProjectBreakdown id={'tres solutions 2'}/>
 
             <XSmallImage id={1} empty={true}/>
-            <XLargeImage id={16}/>
+            <LargeImage id={16}/>
+            <XSmallImage id={1} empty={true}/>
+
 
 
             <XSmallImage id={1} empty={true}/>
             <LargeImage id={17}/>
             <XSmallImage id={1} empty={true}/>
+
+
+            <XXLargeImage id={1}/>
+
+            <Quote colNum={5}>
+              Project 02: Microsoft Cohesion Team
+            </Quote>
+
+            <XXLargeImage id={23}/>
+            <ProjectOverview id={'tres solutions'}/>
+
+            <MediumImage id={24}/>
+            <MediumImage id={25}/>
+
+            <SmallImage id={1} empty={true}/>
+            <LargeImage id={26}/>
+
+            <LargeImage id={27}/>
+            <SmallImage id={1} empty={true}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <Quote colNum={5}>
+              We work with product teams at a foundational level to understand their product roadmaps, user needs, and usability assessments, to determine the common controls and patterns we need to create.
+              <br/><br/>
+              <span className={"grid__quote--author"}>— Cohesion Mission</span>
+            </Quote>
+
+            <LargeImage id={28}/>
+            <SmallImage id={1} empty={true}/>
+
+            <ProjectBreakdown id={'tres solutions 1'}/>
+
 
 
           </GridBox>

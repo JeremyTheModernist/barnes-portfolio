@@ -330,6 +330,105 @@ class AppState extends React.Component{
           }
         }
       },
+
+      {
+        id:22,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900927/barnes-portfolio/14_Tres-Wireframes_0_cmglfi.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900927/barnes-portfolio/14_Tres-Wireframes_0_cmglfi.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/14_Tres-Wireframes_0_cmglfi.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/14_Tres-Wireframes_0_cmglfi.jpg',
+          }
+        }
+      },
+      {
+        id:23,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
+          }
+        }
+      },
+      {
+        id:24,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/02_Cohesion-Shirt_s6olbc.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/02_Cohesion-Shirt_s6olbc.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/02_Cohesion-Shirt_s6olbc.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/02_Cohesion-Shirt_s6olbc.jpg',
+          }
+        }
+      },
+      {
+        id:25,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900927/barnes-portfolio/03_Cohesion-Warehouse-B_cad7iu.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900927/barnes-portfolio/03_Cohesion-Warehouse-B_cad7iu.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/03_Cohesion-Warehouse-B_cad7iu.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/03_Cohesion-Warehouse-B_cad7iu.jpg',
+          }
+        }
+      },
+      {
+        id:26,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
+          }
+        }
+      },
+      {
+        id:27,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
+          }
+        }
+      },
+      {
+        id:28,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
+          }
+        }
+      },
     ],
     toggleAbout: () => {
       this.setState((state) => {
