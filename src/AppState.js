@@ -280,9 +280,9 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_45/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_45/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/13_Tres-toolkit_nolp0n.jpg',
           }
