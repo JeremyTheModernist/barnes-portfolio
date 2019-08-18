@@ -29,7 +29,7 @@ class App extends React.Component{
           <GridBox>
             <Splash/>
 
-            <XXLargeImage id={1} />
+            <XXLargeImage id={15} />
             <ProjectOverview id={'tres solutions'}/>
 
             <XXLargeImage id={6}/>
@@ -48,6 +48,8 @@ class App extends React.Component{
               <span className={"grid__quote--author"}>— Aaron Holton, Tres Director</span>
             </Quote>
 
+
+
             <MediumImage id={5}/>
             <MediumImage id={3} empty={true}/>
 
@@ -55,7 +57,7 @@ class App extends React.Component{
             <XLargeImage id={6}/> */}
 
             <XSmallImage id={1} empty={true}/>
-            <XLargeImage id={15}/>
+            <XLargeImage id={18}/>
 
             <ProjectBreakdown id={'tres solutions 1'}/>
 
@@ -78,17 +80,22 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
             <XLargeImage id={11}/>
 
+            <XXLargeImage id={1}/>
+            
             <MediumImage id={12}/>
             <XSmallImage id={1} empty={true}/>
             <SmallImage id={13}/>
+
+
 
             <XSmallImage id={1} empty={true}/>
             <LargeImage id={14}/>
             <XSmallImage id={1} empty={true}/>
 
 
-            <XSmallImage id={1} empty={true}/>
+
             <XLargeImage id={20}/>
+            <XSmallImage id={1} empty={true}/>
 
 
             <XSmallImage id={1} empty={true}/>
@@ -104,9 +111,6 @@ class App extends React.Component{
             <LargeImage id={17}/>
             <XSmallImage id={1} empty={true}/>
 
-            <XSmallImage id={1} empty={true}/>
-            <LargeImage id={18}/>
-            <XSmallImage id={1} empty={true}/>
 
           </GridBox>
           <Footer/>

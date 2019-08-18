@@ -68,9 +68,11 @@ $grid__cols: 6;
     font-family:HelveticaNowDisplay-XBd;
     font-size:map-get($type-ramp,xl)*2;
     margin-top:map-get($margin-ramp,xl);
+    margin-bottom:map-get($margin-ramp,md);
     line-height:.85em;
     @include breakpoint(large){
       font-size:260px;
+      margin-bottom:0;
     }
   }
   .ProjectOverview{
