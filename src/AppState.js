@@ -31,7 +31,7 @@ class AppState extends React.Component{
       },
       {
         id:'tres solutions 2',
-        columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the logos that came out of this exploration, marks of modernity and precision. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
+        columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the original splash screens and logos that came out of this exploration. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
         columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
       }
     ],

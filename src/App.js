@@ -29,8 +29,10 @@ class App extends React.Component{
           <GridBox>
             <Splash/>
 
-            <XXLargeImage id={1} noMargin="noBottom"/>
+            <XXLargeImage id={1} />
             <ProjectOverview id={'tres solutions'}/>
+
+            <XXLargeImage id={6}/>
 
             <LargeImage id={2}/>
             <SmallImage id={1} empty={true}/>
@@ -49,8 +51,11 @@ class App extends React.Component{
             <MediumImage id={5}/>
             <MediumImage id={3} empty={true}/>
 
+            {/* <XSmallImage id={1} empty={true}/>
+            <XLargeImage id={6}/> */}
+
             <XSmallImage id={1} empty={true}/>
-            <XLargeImage id={6}/>
+            <XLargeImage id={15}/>
 
             <ProjectBreakdown id={'tres solutions 1'}/>
 
@@ -89,15 +94,10 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
             <XLargeImage id={21}/>
 
-            <XSmallImage id={1} empty={true}/>
-            <LargeImage id={15}/>
-            <XSmallImage id={1} empty={true}/>
-
-
             <ProjectBreakdown id={'tres solutions 2'}/>
 
-
-            <XXLargeImage id={16}/>
+            <XSmallImage id={1} empty={true}/>
+            <XLargeImage id={16}/>
 
 
             <XSmallImage id={1} empty={true}/>
