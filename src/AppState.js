@@ -11,28 +11,25 @@ class AppState extends React.Component{
       title: null,
       description:null
     },
-    overviews: [
+    projects:[
       {
         id:'tres solutions',
-        columnOneClient: 'Client: Tres Vessel Solutions.',
-        columnOneWork: 'Work: Identity, Responsive Website, Branding, Content.',
-        columnTwo: 'Tres Solutions is a Vessel Analytics company, supplying data analytics to shipping companies across the world. Disclaimer: I do not own the following photographs, and many exist for mock purposes only.'
-      },
-      {
-        id:'woven magazine',
-        content:"here is some new content!"
-      }
-    ],
-    breakdowns: [
-      {
-        id:'tres solutions 1',
-        columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
-        columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
-      },
-      {
-        id:'tres solutions 2',
-        columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the original splash screens and logos that came out of this exploration. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
-        columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
+        name:'Tres Vessel Analytics',
+        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
+        challenge:"Tres Solutions is data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
+        solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
+        breakdowns: [
+          {
+            id:1,
+            columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
+            columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+          },
+          {
+            id:2,
+            columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the original splash screens and logos that came out of this exploration. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
+            columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
+          }
+        ]
       }
     ],
     information: [

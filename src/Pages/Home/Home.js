@@ -30,7 +30,6 @@ class Home extends React.Component{
             <Splash/>
 
             <XXLargeImage id={15} />
-            <ProjectOverview id={'tres solutions'}/>
 
             <XXLargeImage id={6} link="/tressolutions"/>
 
@@ -118,7 +117,6 @@ class Home extends React.Component{
             </Quote>
 
             <XXLargeImage id={23}/>
-            <ProjectOverview id={'tres solutions'}/>
 
             <MediumImage id={24}/>
             <MediumImage id={25}/>

@@ -23,11 +23,11 @@ export const Tres = () => {
   return(
     <ScrollToTop>
       <GridBox>
-        <ProjectIntro/>
+        <ProjectIntro projectName="tres solutions"/>
 
         <XXLargeImage id={15} />
 
-        <XXLargeImage id={6} link="/tressolutions"/>
+        <XXLargeImage id={6}/>
 
         <LargeImage id={2}/>
         <EmptyColumn columns={2}/>
@@ -51,7 +51,7 @@ export const Tres = () => {
         <EmptyColumn columns={1}/>
         <XLargeImage id={18}/>
 
-        <ProjectBreakdown id={'tres solutions 1'}/>
+        <ProjectBreakdown id={1}/>
 
         <EmptyColumn columns={1}/>
         <XLargeImage id={7}/>
@@ -93,7 +93,7 @@ export const Tres = () => {
         <EmptyColumn columns={1}/>
         <XLargeImage id={21}/>
 
-        <ProjectBreakdown id={'tres solutions 2'}/>
+        <ProjectBreakdown id={2}/>
 
         <EmptyColumn columns={1}/>
         <LargeImage id={16}/>

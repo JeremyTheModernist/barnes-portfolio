@@ -2,11 +2,13 @@ import React from 'react';
 import Consumer from '../../AppState.js';
 
 export default function ProjectBreakdown(props){
+  var projectName = 'tres solutions';
   return(
     <Consumer>
     {
         (context) => {
-            return context.breakdowns.map((breakdown) => {
+            var project = context.projects.filter(project => project.id === projectName )[0];
+            return project.breakdowns.map((breakdown) => {
             if(props.id === breakdown.id){
               return(
                 <>
