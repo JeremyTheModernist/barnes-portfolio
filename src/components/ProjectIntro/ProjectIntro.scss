@@ -1,11 +1,14 @@
 .projectintro{
   margin-top: map-get($margin-ramp,xxxl)*1.5;
-  margin-bottom: map-get($margin-ramp,lg);
+  margin-bottom: 0;
   color:$primary-color;
   font-size:map-get($type-ramp,md);
   width:100%;
   margin-left:auto;
   margin-right:auto;
+  @include breakpoint(medium){
+    margin-bottom: map-get($margin-ramp,sm);
+  }
   &__header{
     margin: 0 auto 60px auto;
     font-weight:normal;
@@ -38,7 +41,7 @@
   .challenge__header,
   .solution__header{
     font-weight:normal;
-    font-size:map-get($type-ramp,lg);
+    font-size:26px;
     font-family:HelveticaNowText-Bold;
     margin-bottom:map-get($margin-ramp,sm);
   }
@@ -54,12 +57,13 @@
     }
     li{
       line-height:1.6em;
+      padding:0;
     }
     :first-child{
       text-transform:uppercase;
       letter-spacing: .1em;
       font-family:HelveticaNowDisplay-XBd;
-      margin-bottom:map-get($margin-ramp,sm);
+      margin-bottom:map-get($margin-ramp,sm)*.78;
     }
   }
 
