@@ -1,4 +1,6 @@
 import React from 'react';
+import { Router, Link } from "@reach/router"
+
 import Consumer from '../../AppState.js'
 
 function Navigation(){
@@ -10,7 +12,7 @@ function Navigation(){
             <div className="navigation">
               <ul className="navigation__layout">
                 <li className="navigation__item navigation__item--title">
-                  Jeremy Barnes
+                  <Link to="/">Jeremy Barnes</Link>
                 </li>
                 <li className="navigation__item" onClick={() => context.toggleAbout()}>
                   About

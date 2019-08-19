@@ -1,0 +1,29 @@
+.projectintro{
+  margin-top: map-get($margin-ramp,xxxl);
+  color:$primary-color;
+  font-size:map-get($type-ramp,md);
+  &__header{
+    font-weight:normal;
+    font-family:HelveticaNowDisplay-XBd;
+    font-size:map-get($type-ramp,xl) *2;
+  }
+  &__overview{
+    width:100%;
+    padding:0;
+    align-items:baseline;
+    list-style-type:none;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  &__challenge,
+  &__solution,
+  &__disciplines{
+    width:28%;
+    margin-right:4%;
+  }
+  &__disciplines{
+    padding:0;
+    list-style-type:none;
+  }
+
+}
