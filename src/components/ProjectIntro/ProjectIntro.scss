@@ -1,25 +1,72 @@
 .projectintro{
-  margin-top: map-get($margin-ramp,xxxl);
+  margin-top: map-get($margin-ramp,xxxl)*1.5;
+  margin-bottom: map-get($margin-ramp,lg);
   color:$primary-color;
   font-size:map-get($type-ramp,md);
   width:100%;
-  margin:auto;
+  margin-left:auto;
+  margin-right:auto;
   &__header{
+    margin: 0 auto 60px auto;
     font-weight:normal;
+    font-size:map-get($type-ramp,xl)*1.5;
     font-family:HelveticaNowDisplay-XBd;
-    font-size:map-get($type-ramp,xl) *2;
+    line-height:1em;
     width:92%;
     margin-left:4%;
+    @include breakpoint(medium){
+      font-size:map-get($type-ramp,xl) *2;
+      margin: 0 auto 120px auto;
+    }
   }
   &__challenge,
-  &__solution,
-  &__disciplines{
-    width:28%;
+  &__solution{
+    width:92%;
     margin-left:4%;
+    margin-bottom:map-get($margin-ramp,md);
+    line-height:map-get($leading-ramp,m);
+    @include breakpoint(medium){
+      width:44%;
+      margin-left:4%;
+      margin-bottom:map-get($margin-ramp,lg);
+    }
+    @include breakpoint(large){
+      width:28%;
+      margin-left:4%;
+    }
   }
+  .challenge__header,
+  .solution__header{
+    font-weight:normal;
+    font-size:map-get($type-ramp,lg);
+    font-family:HelveticaNowText-Bold;
+    margin-bottom:map-get($margin-ramp,sm);
+  }
+  &__disciplines{
+    width:92%;
+    margin-left:4%;
+    margin-bottom:map-get($margin-ramp,md);
+    line-height:map-get($leading-ramp,m);
+    @include breakpoint(large){
+      width:28%;
+      margin-left:4%;
+      margin-bottom:map-get($margin-ramp,lg);
+    }
+    li{
+      line-height:1.6em;
+    }
+    :first-child{
+      text-transform:uppercase;
+      letter-spacing: .1em;
+      font-family:HelveticaNowDisplay-XBd;
+      margin-bottom:map-get($margin-ramp,sm);
+    }
+  }
+
   &__overview{
     width:100%;
     padding:0;
+    margin:0;
     align-items:baseline;
     list-style-type:none;
     display:flex;

@@ -120,7 +120,7 @@ $grid__cols: 6;
   .grid__quote{
     @include css-reset;
     max-width:100%;
-    font-size:map-get($type-ramp,md-mobile);
+    font-size:map-get($type-ramp,lg);
     color:$primary-color;
     font-family:HelveticaNowDisplay-XBd;
     margin-top:map-get($margin-ramp,xl);
