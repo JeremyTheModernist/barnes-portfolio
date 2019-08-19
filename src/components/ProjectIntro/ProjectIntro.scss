@@ -2,10 +2,20 @@
   margin-top: map-get($margin-ramp,xxxl);
   color:$primary-color;
   font-size:map-get($type-ramp,md);
+  width:100%;
+  margin:auto;
   &__header{
     font-weight:normal;
     font-family:HelveticaNowDisplay-XBd;
     font-size:map-get($type-ramp,xl) *2;
+    width:92%;
+    margin-left:4%;
+  }
+  &__challenge,
+  &__solution,
+  &__disciplines{
+    width:28%;
+    margin-left:4%;
   }
   &__overview{
     width:100%;
@@ -14,12 +24,6 @@
     list-style-type:none;
     display:flex;
     flex-flow:row wrap;
-  }
-  &__challenge,
-  &__solution,
-  &__disciplines{
-    width:28%;
-    margin-right:4%;
   }
   &__disciplines{
     padding:0;

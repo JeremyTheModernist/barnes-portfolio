@@ -3,10 +3,10 @@ import React from 'react'
 function ProjectIntro(){
   return(
       <div class="projectintro">
-        <h1 class="projectintro__header col-6">
+        <h1 class="projectintro__header">
           Project Name
         </h1>
-      <ul class="projectintro__overview col-6">
+      <ul class="projectintro__overview">
         <ul class="projectintro__disciplines">
           <li>Identity</li>
           <li>Responsive</li>
