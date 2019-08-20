@@ -27,6 +27,7 @@ class App extends React.Component{
     return (
       <AppState>
         <>
+        <About/>
         <Navigation/>
           <Router>
             <Home path="/"/>

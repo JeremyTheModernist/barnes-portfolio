@@ -18,7 +18,7 @@ function Navigation(){
                   About
                 </li>
                 <li className="navigation__item">
-                  <a href="mailto:m_mcinarnay@bellsouth.net" target="_top">Contact</a>
+                  <a href="https://www.linkedin.com/in/barnesjer/" target="_blank">Connect</a>
                 </li>
               </ul>
             </div>

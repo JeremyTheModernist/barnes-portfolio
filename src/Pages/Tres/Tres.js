@@ -23,6 +23,7 @@ export const Tres = () => {
   return(
     <ScrollToTop>
       <GridBox>
+
         <ProjectIntro projectName="tres solutions"/>
 
         <XXLargeImage id={15} />

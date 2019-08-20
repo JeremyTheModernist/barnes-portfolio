@@ -20,7 +20,7 @@
       transition:.25s ease-out;
     }
     a:hover{
-      color:$primary-color;
+      color:$secondary-color;
     }
     @include breakpoint(medium){
       font-size:map-get($type-ramp,lg);

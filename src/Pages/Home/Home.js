@@ -24,8 +24,7 @@ class Home extends React.Component{
     return (
         <ScrollToTop>
         <div className="App">
-          <About/>
-
+  
           <GridBox>
             <Splash/>
 

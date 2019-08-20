@@ -1,23 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { Router, Link } from "@reach/router"
 
 function Footer(props){
   return(
     <div class="footer">
     <div class="footer__container">
-      <div class="footer__contact">For inquiries around purchasing or further info, please contact  me at <a href="mailto:m_mcinarnay@bellsouth.net">m_mcinarnay@bellsouth.net</a></div>
+      <div class="footer__contact"><Link to="/"><a>View All Projects</a></Link></div>
       <ul class="footer__byline">
         <li class="footer__bio">
-          Margie McInarnay is an artist and painter living and working out of Montgomery, AL.
+          Jeremy Barnes is a design manager and front end developer working at Microsoft.
         </li>
         <ul class="footer__social">
           <li>
-            <a href="mailto:m_mcinarnay@bellsouth.net" target="_top">Contact Me</a>
+            <a href="mailto:jeremyb1988@gmail.com" target="_top">Contact Me</a>
           </li>
           <li>
             {/* Facebook */}
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/margie-mcinarnay-86b410137/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/barnesjer/" target="_blank">LinkedIn</a>
           </li>
         </ul>
 
