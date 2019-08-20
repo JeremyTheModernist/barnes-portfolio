@@ -483,7 +483,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_30/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-01_beyfn0.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-01_beyfn0.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-01_beyfn0.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-Mobile_r6j1ol.jpg',
           }
         }
       },

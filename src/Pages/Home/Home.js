@@ -28,7 +28,7 @@ class Home extends React.Component{
           <GridBox>
             <Splash/>
 
-            <XXLargeImage id={15} />
+            <XXLargeImage id={15} link="/microsoftcohesion" />
 
             <XXLargeImage id={6} link="/tressolutions"/>
 
