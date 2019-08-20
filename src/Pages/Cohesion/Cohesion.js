@@ -45,14 +45,34 @@ export const Cohesion = () => {
           <span className={"grid__quote--author"}>— Cohesion Mission</span>
         </Quote>
 
-        <LargeImage id={28}/>
-        <EmptyColumn columns={2}/>
+        <XXLargeImage id={28}/>
+
+        <Quote colNum={5}>
+          One grid to unite our SAAS apps
+        </Quote>
 
         <XXLargeImage id={30}/>
 
         <ProjectBreakdown id={1}/>
-        
-        <XXLargeImage id={31}/>
+
+        <LargeImage id={31}/>
+        <SmallImage id={32}/>
+
+        <EmptyColumn columns={1}/>
+        <Quote colNum={5}>
+          This grid was built on 12 columns and a series of mathematical proportions. The two main goals were to accomodate a range of user content and provide a responsive system that worked across all screens.
+        </Quote>
+
+        <MediumImage id={33}/>
+        <MediumImage id={34}/>
+
+        <EmptyColumn columns={1}/>
+        <LargeImage id={35}/>
+        <EmptyColumn columns={1}/>
+
+        <EmptyColumn columns={1}/>
+        <LargeImage id={36}/>
+        <EmptyColumn columns={1}/>
 
       </GridBox>
     </ScrollToTop>

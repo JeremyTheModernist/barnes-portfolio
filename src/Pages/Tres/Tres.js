@@ -28,7 +28,6 @@ export const Tres = () => {
 
         <XXLargeImage id={15} />
 
-        <XXLargeImage id={6}/>
 
         <LargeImage id={2}/>
         <EmptyColumn columns={2}/>
@@ -50,7 +49,7 @@ export const Tres = () => {
         <EmptyColumn columns={3}/>
 
         <EmptyColumn columns={1}/>
-        <XLargeImage id={18}/>
+        <XLargeImage id={6}/>
 
         <ProjectBreakdown id={1}/>
 
@@ -75,17 +74,9 @@ export const Tres = () => {
 
         {/* <XXLargeImage id={1}/> */}
 
-        <MediumImage id={12}/>
+        {/* <MediumImage id={12}/>
         <EmptyColumn columns={1}/>
-        <SmallImage id={13}/>
-
-
-
-        <EmptyColumn columns={1}/>
-        <LargeImage id={14}/>
-        <EmptyColumn columns={1}/>
-
-
+        <SmallImage id={13}/> */}
 
         <XLargeImage id={20}/>
         <EmptyColumn columns={1}/>
@@ -94,13 +85,19 @@ export const Tres = () => {
         <EmptyColumn columns={1}/>
         <XLargeImage id={21}/>
 
+        <EmptyColumn columns={1}/>
+        <LargeImage id={14}/>
+        <EmptyColumn columns={1}/>
+
         <ProjectBreakdown id={2}/>
 
         <EmptyColumn columns={1}/>
         <LargeImage id={16}/>
         <EmptyColumn columns={1}/>
 
-
+        <EmptyColumn columns={1}/>
+        <LargeImage id={18}/>
+        <EmptyColumn columns={1}/>
 
         <EmptyColumn columns={1}/>
         <LargeImage id={17}/>
