@@ -24,7 +24,7 @@ class Home extends React.Component{
     return (
         <ScrollToTop>
         <div className="App">
-  
+
           <GridBox>
             <Splash/>
 
@@ -114,29 +114,6 @@ class Home extends React.Component{
             <Quote colNum={5}>
               Project 02: Microsoft Cohesion Team
             </Quote>
-
-            <XXLargeImage id={23}/>
-
-            <MediumImage id={24}/>
-            <MediumImage id={25}/>
-
-            <EmptyColumn columns={2}/>
-            <LargeImage id={26}/>
-
-            <LargeImage id={27}/>
-            <EmptyColumn columns={2}/>
-
-            <EmptyColumn columns={1}/>
-            <Quote colNum={5}>
-              We work with product teams at a foundational level to understand their product roadmaps, user needs, and usability assessments, to determine the common controls and patterns we need to create.
-              <br/><br/>
-              <span className={"grid__quote--author"}>— Cohesion Mission</span>
-            </Quote>
-
-            <LargeImage id={28}/>
-            <EmptyColumn columns={2}/>
-
-            <ProjectBreakdown id={'tres solutions 1'}/>
 
           </GridBox>
         </div>

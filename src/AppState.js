@@ -30,7 +30,26 @@ class AppState extends React.Component{
             columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
           }
         ]
-      }
+      },
+      {
+        id:'cohesion',
+        name:'Microsoft Cohesion Team',
+        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
+        challenge:"Tres Solutions is a data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
+        solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
+        breakdowns: [
+          {
+            id:1,
+            columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
+            columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+          },
+          {
+            id:2,
+            columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the original splash screens and logos that came out of this exploration. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
+            columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
+          }
+        ]
+      },
     ],
     information: [
       {
@@ -348,11 +367,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/07_Cohesion-Logo-01_xxk5tc.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/01_Cohesion-Logo_zu7fbi.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/07_Cohesion-Logo-01_xxk5tc.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/07_Cohesion-Logo-01_xxk5tc.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/07_Cohesion-Logo-01_xxk5tc.jpg',
           }
         }
       },
@@ -390,11 +409,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website_p7izsu.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website-01_fubwnb.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website_p7izsu.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website_p7izsu.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Cohesion_Website_p7izsu.jpg',
           }
         }
       },
@@ -404,11 +423,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_c0z1rq.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_rqbe3e.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_c0z1rq.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_c0z1rq.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/06_Cohesion_Collateral_c0z1rq.jpg',
           }
         }
       },
@@ -418,11 +437,53 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_m2gv44.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_omjsop.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_m2gv44.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_m2gv44.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1600,q_50/v1565900927/barnes-portfolio/05_Cohesion_Collateral_m2gv44.jpg',
+          }
+        }
+      },
+      {
+        id:29,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/08_Cohesion-Logo-01_d9s6j3.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/08_Cohesion-Logo-01_d9s6j3.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/08_Cohesion-Logo-01_d9s6j3.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/08_Cohesion-Logo-01_d9s6j3.jpg',
+          }
+        }
+      },
+      {
+        id:30,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_30/v1565900927/barnes-portfolio/16_Cohesion_Azure-01_o4kjaz.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_30/v1565900927/barnes-portfolio/16_Cohesion_Azure-01_o4kjaz.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1565900927/barnes-portfolio/16_Cohesion_Azure-01_o4kjaz.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/16_Cohesion_Azure-01_o4kjaz.jpg',
+          }
+        }
+      },
+      {
+        id:31,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_30/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-01_beyfn0.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_30/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-01_beyfn0.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-01_beyfn0.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/15_Cohesion_PowerBI-01_beyfn0.jpg',
           }
         }
       },
