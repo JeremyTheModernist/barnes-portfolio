@@ -49,6 +49,9 @@ export const Cohesion = () => {
         <EmptyColumn columns={2}/>
 
         <XXLargeImage id={30}/>
+
+        <ProjectBreakdown id={1}/>
+        
         <XXLargeImage id={31}/>
 
       </GridBox>
