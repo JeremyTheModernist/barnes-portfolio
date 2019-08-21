@@ -12,7 +12,7 @@ function ItemImage(props){
           return context.information.map((item) => {
               return props.id == item.id ?
                 <div className="item__image" key={item.id}>
-                  <LazyLoadComponent threshold={650}>
+                  <LazyLoadComponent threshold={950}>
                   <picture>
                     {/* the source media code only works if I'm not using the Lazy Load Image  */}
                     <source media="(min-width:1024px)" srcset={`${item.content.breakpointImgs.large}`}/>

@@ -48,7 +48,7 @@ export const Cohesion = () => {
         <XXLargeImage id={28}/>
 
         <Quote colNum={5}>
-          One grid to unite our SAAS apps
+          One grid to unite Cloud + Enterprise SAAS apps
         </Quote>
 
         <XXLargeImage id={30}/>
@@ -63,11 +63,17 @@ export const Cohesion = () => {
           This grid was built on 12 columns and a series of mathematical proportions. The two main goals were to accomodate a range of user content and provide a responsive system that worked across all screens.
         </Quote>
 
+        <XXLargeImage id={38}/>
+
         <MediumImage id={33}/>
         <MediumImage id={34}/>
 
         <EmptyColumn columns={1}/>
         <LargeImage id={35}/>
+        <EmptyColumn columns={1}/>
+
+        <EmptyColumn columns={1}/>
+        <LargeImage id={37}/>
         <EmptyColumn columns={1}/>
 
         <EmptyColumn columns={1}/>
