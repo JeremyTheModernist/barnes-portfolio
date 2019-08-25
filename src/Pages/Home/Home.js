@@ -32,7 +32,7 @@ class Home extends React.Component{
 
             <XXLargeImage id={6} link="/tressolutions"/>
 
-            <LargeImage id={2}/>
+            <LargeImage id={2} link="/microsoftfluent"/>
             <EmptyColumn columns={2}/>
 
             <MediumImage id={3}/>
