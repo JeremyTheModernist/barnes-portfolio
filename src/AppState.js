@@ -50,6 +50,25 @@ class AppState extends React.Component{
           }
         ]
       },
+      {
+        id:'fluent',
+        name:'Microsoft Fluent',
+        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
+        challenge:"Tres Solutions is a data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
+        solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
+        breakdowns: [
+          {
+            id:1,
+            columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
+            columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+          },
+          {
+            id:2,
+            columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the original splash screens and logos that came out of this exploration. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
+            columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
+          }
+        ]
+      },
     ],
     information: [
       {
@@ -582,6 +601,174 @@ class AppState extends React.Component{
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_60/v1565900927/barnes-portfolio/26_Cohesion-Grid-Tiles_rd4qbc.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/26_Cohesion-Grid-Tiles_rd4qbc.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/26_Cohesion-Grid-Tiles-mobile_obijqz.jpg',
+          }
+        }
+      },
+      {
+        id:39,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_60/v1565900927/barnes-portfolio/08_FluentLogo_dne4tq.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_60/v1565900927/barnes-portfolio/08_FluentLogo_dne4tq.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/08_FluentLogo_dne4tq.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/08_FluentLogo_dne4tq.jpg',
+          }
+        }
+      },
+      {
+        id:40,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_60/v1565900927/barnes-portfolio/09_FluentLogo_gkrtbi.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_60/v1565900927/barnes-portfolio/09_FluentLogo_gkrtbi.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/09_FluentLogo_gkrtbi.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/09_FluentLogo_gkrtbi.jpg',
+          }
+        }
+      },
+      {
+        id:41,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_60/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_60/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
+          }
+        }
+      },
+      {
+        id:42,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure_onmtrp.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure_onmtrp.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure_onmtrp.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure_onmtrp.jpg',
+          }
+        }
+      },
+      {
+        id:43,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566695570/barnes-portfolio/02_Fluent-Azure-01_vdocdz.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566695570/barnes-portfolio/02_Fluent-Azure-01_vdocdz.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure-Mobile_toeoyp.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure-Mobile_toeoyp.jpg',
+          }
+        }
+      },
+      {
+        id:44,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/00_Fluent-PowerBI_lopdon.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/00_Fluent-PowerBI_lopdon.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/00_Fluent-PowerBI-Mobile_cqgfss.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/00_Fluent-PowerBI-Mobile_cqgfss.jpg',
+          }
+        }
+      },
+      {
+        id:45,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566698378/barnes-portfolio/04_Fluent-PBI-Icons_kqa9fk.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/04_Fluent-PBI-Icons_wlzwsb.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-Icons_wlzwsb.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-Icons_wlzwsb.jpg',
+          }
+        }
+      },
+      {
+        id:46,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566698378/barnes-portfolio/04_Fluent-PBI-Typeface_chllhg.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/04_Fluent-PBI-Typeface_chllhg.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-Typeface_chllhg.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-Typeface_chllhg.jpg',
+          }
+        }
+      },
+      {
+        id:47,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566698378/barnes-portfolio/05_Fluent-PowerApps_k8xrd8.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/05_Fluent-PowerApps_k8xrd8.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/05_Fluent-PowerApps-Mobile_sipnsr.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/05_Fluent-PowerApps-Mobile_sipnsr.jpg',
+          }
+        }
+      },
+      {
+        id:48,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566698378/barnes-portfolio/04_Fluent-PBI-PieGraph_qdkbke.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/04_Fluent-PBI-PieGraph_qdkbke.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-PieGraph_qdkbke.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-PieGraph_qdkbke.jpg',
+          }
+        }
+      },
+      {
+        id:49,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566698378/barnes-portfolio/04_Fluent-PBI-CircleChart_prtdpn.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/04_Fluent-PBI-CircleChart_prtdpn.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-CircleChart_prtdpn.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/04_Fluent-PBI-CircleChart_prtdpn.jpg',
+          }
+        }
+      },
+      {
+        id:50,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566698378/barnes-portfolio/07_Fluent_BuildingBlocks-01_medfkq.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/07_Fluent_BuildingBlocks-01_medfkq.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1565900927/barnes-portfolio/07_Fluent_BuildingBlocks-01_medfkq.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1565900927/barnes-portfolio/07_Fluent_BuildingBlocks-01_medfkq.jpg',
           }
         }
       },
