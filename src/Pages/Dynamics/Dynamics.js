@@ -53,6 +53,8 @@ export const Dynamics = () => {
         <EmptyColumn columns={1}/>
         <XLargeImage id={59}/>
 
+        <XXLargeImage id={62}/>
+
         <EmptyColumn columns={1}/>
         <XLargeImage id={60}/>
 
