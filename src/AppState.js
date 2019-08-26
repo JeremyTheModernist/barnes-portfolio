@@ -661,7 +661,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_60/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566785364/barnes-portfolio/01_Fluent-VisualStudio-Mobile_lcw14e.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_60/v1566843659/barnes-portfolio/01_Fluent-VisualStudio-MobileB-01_ruqcbp.jpg',
           }
         }
       },
@@ -689,7 +689,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566695570/barnes-portfolio/02_Fluent-Azure-01_vdocdz.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure-Mobile_toeoyp.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1566695570/barnes-portfolio/02_Fluent-Azure-Mobile_toeoyp.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566840265/barnes-portfolio/02_Fluent-Azure-Mobile-01_v4m8s6.jpg',
           }
         }
       },
@@ -745,7 +745,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/05_Fluent-PowerApps_k8xrd8.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/05_Fluent-PowerApps-Mobile_sipnsr.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/05_Fluent-PowerApps-Mobile_sipnsr.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566844477/barnes-portfolio/05_Fluent-PowerApps-Mobile-01_gohysn.jpg',
           }
         }
       },
