@@ -661,7 +661,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_60/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900927/barnes-portfolio/02_Fluent-VisualStudio_zczpzt.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566785364/barnes-portfolio/01_Fluent-VisualStudio-Mobile_lcw14e.jpg',
           }
         }
       },
@@ -801,7 +801,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566783901/barnes-portfolio/00_D365_Dashboard-Mobile_vbaysa.jpg',
           }
         }
       },
@@ -831,7 +831,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566784263/barnes-portfolio/02_D365_Components-Mobile_zwfwex.jpg',
           }
         }
       },
@@ -888,7 +888,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_35/v1566777548/barnes-portfolio/07_D365_Breakdown_egckd6.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777548/barnes-portfolio/07_D365_Breakdown_egckd6.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777548/barnes-portfolio/07_D365_Breakdown_egckd6.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566783901/barnes-portfolio/07_D365_Breakdown-Mobile_glmgpw.jpg',
           }
         }
       },
@@ -902,7 +902,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_35,w_3000/v1566777431/barnes-portfolio/12_D365_PeoplePicker_px2r9f.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/12_D365_PeoplePicker_px2r9f.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/12_D365_PeoplePicker_px2r9f.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566783902/barnes-portfolio/12_D365_PeoplePicker-Mobile_i6fk26.jpg',
           }
         }
       },
@@ -916,7 +916,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_35/v1566777434/barnes-portfolio/14_D365_SideNav_nq5u1i.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777434/barnes-portfolio/14_D365_SideNav_nq5u1i.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777434/barnes-portfolio/14_D365_SideNav_nq5u1i.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566783902/barnes-portfolio/14_D365_SideNav-Mobile_w4olay.jpg',
           }
         }
       },
@@ -930,7 +930,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_35/v1566777431/barnes-portfolio/15_D365_TextFields_p8xlkj.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/15_D365_TextFields_p8xlkj.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/15_D365_TextFields_p8xlkj.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566783901/barnes-portfolio/15_D365_TextFields-Mobile_orq4y1.jpg',
           }
         }
       },
@@ -944,7 +944,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_35/v1566777422/barnes-portfolio/10_D365_FlyoutCard_cwahfh.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777422/barnes-portfolio/10_D365_FlyoutCard_cwahfh.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777422/barnes-portfolio/10_D365_FlyoutCard_cwahfh.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566783902/barnes-portfolio/10_D365_FlyoutCard-Mobile_feyyxo.jpg',
           }
         }
       },
