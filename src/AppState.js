@@ -801,7 +801,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566783901/barnes-portfolio/00_D365_Dashboard-Mobile_vbaysa.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566831442/barnes-portfolio/00_D365_Dashboard-Mobile-01_lnbuof.jpg',
           }
         }
       },
@@ -816,7 +816,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566761193/barnes-portfolio/01_D365_Dashboard_rhobuv.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761193/barnes-portfolio/01_D365_Dashboard_rhobuv.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761193/barnes-portfolio/01_D365_Dashboard_rhobuv.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/q_60,w_1200/v1566831411/barnes-portfolio/01_D365_Dashboard-mobile_cq5mxv.jpg',
           }
         }
       },
@@ -860,7 +860,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_30/v1566767318/barnes-portfolio/04_D365_ComponentBreakdown-01_kmsjrs.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566767318/barnes-portfolio/04_D365_ComponentBreakdown-01_kmsjrs.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566767318/barnes-portfolio/04_D365_ComponentBreakdown-01_kmsjrs.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566831693/barnes-portfolio/04_D365_ComponentBreakdown-Mobile_fxsnhw.jpg',
           }
         }
       },
