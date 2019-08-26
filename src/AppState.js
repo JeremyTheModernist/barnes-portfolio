@@ -69,6 +69,25 @@ class AppState extends React.Component{
           }
         ]
       },
+      {
+        id:'dynamics',
+        name:'D365 Design Language',
+        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
+        challenge:"Tres Solutions is a data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
+        solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
+        breakdowns: [
+          {
+            id:1,
+            columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
+            columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+          },
+          {
+            id:2,
+            columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the original splash screens and logos that came out of this exploration. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
+            columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
+          }
+        ]
+      },
     ],
     information: [
       {
@@ -769,6 +788,163 @@ class AppState extends React.Component{
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1565900927/barnes-portfolio/07_Fluent_BuildingBlocks-01_medfkq.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1565900927/barnes-portfolio/07_Fluent_BuildingBlocks-01_medfkq.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1565900927/barnes-portfolio/07_Fluent_BuildingBlocks-01_medfkq.jpg',
+          }
+        }
+      },
+      {
+        id:51,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761469/barnes-portfolio/00_D365_Dashboard_auqyvb.jpg',
+          }
+        }
+      },
+      {
+        id:52,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566761193/barnes-portfolio/01_D365_Dashboard_rhobuv.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566761193/barnes-portfolio/01_D365_Dashboard_rhobuv.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761193/barnes-portfolio/01_D365_Dashboard_rhobuv.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566761193/barnes-portfolio/01_D365_Dashboard_rhobuv.jpg',
+          }
+        }
+      },
+      {
+        id:53,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+          }
+        }
+      },
+      {
+        id:54,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566763973/barnes-portfolio/03_D365_DataViz_k5bhes.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566763973/barnes-portfolio/03_D365_DataViz_k5bhes.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763973/barnes-portfolio/03_D365_DataViz_k5bhes.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763973/barnes-portfolio/03_D365_DataViz_k5bhes.jpg',
+          }
+        }
+      },
+      {
+        id:55,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566767318/barnes-portfolio/04_D365_ComponentBreakdown-01_kmsjrs.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_30/v1566767318/barnes-portfolio/04_D365_ComponentBreakdown-01_kmsjrs.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566767318/barnes-portfolio/04_D365_ComponentBreakdown-01_kmsjrs.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566767318/barnes-portfolio/04_D365_ComponentBreakdown-01_kmsjrs.jpg',
+          }
+        }
+      },
+      {
+        id:56,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566769178/barnes-portfolio/06_D365_Breakdown_nykmlm.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_35/v1566769178/barnes-portfolio/06_D365_Breakdown_nykmlm.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566769178/barnes-portfolio/06_D365_Breakdown_nykmlm.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566769178/barnes-portfolio/06_D365_Breakdown_nykmlm.jpg',
+          }
+        }
+      },
+      {
+        id:57,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566777548/barnes-portfolio/07_D365_Breakdown_egckd6.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_35/v1566777548/barnes-portfolio/07_D365_Breakdown_egckd6.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777548/barnes-portfolio/07_D365_Breakdown_egckd6.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777548/barnes-portfolio/07_D365_Breakdown_egckd6.jpg',
+          }
+        }
+      },
+      {
+        id:58,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566777431/barnes-portfolio/12_D365_PeoplePicker_px2r9f.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_35,w_3000/v1566777431/barnes-portfolio/12_D365_PeoplePicker_px2r9f.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/12_D365_PeoplePicker_px2r9f.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/12_D365_PeoplePicker_px2r9f.jpg',
+          }
+        }
+      },
+      {
+        id:59,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566777434/barnes-portfolio/14_D365_SideNav_nq5u1i.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_35/v1566777434/barnes-portfolio/14_D365_SideNav_nq5u1i.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777434/barnes-portfolio/14_D365_SideNav_nq5u1i.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777434/barnes-portfolio/14_D365_SideNav_nq5u1i.jpg',
+          }
+        }
+      },
+      {
+        id:60,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566777431/barnes-portfolio/15_D365_TextFields_p8xlkj.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_35/v1566777431/barnes-portfolio/15_D365_TextFields_p8xlkj.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/15_D365_TextFields_p8xlkj.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777431/barnes-portfolio/15_D365_TextFields_p8xlkj.jpg',
+          }
+        }
+      },
+      {
+        id:61,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566777422/barnes-portfolio/10_D365_FlyoutCard_cwahfh.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_35/v1566777422/barnes-portfolio/10_D365_FlyoutCard_cwahfh.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777422/barnes-portfolio/10_D365_FlyoutCard_cwahfh.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566777422/barnes-portfolio/10_D365_FlyoutCard_cwahfh.jpg',
           }
         }
       },

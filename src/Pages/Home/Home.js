@@ -35,7 +35,7 @@ class Home extends React.Component{
             <LargeImage id={2} link="/microsoftfluent"/>
             <EmptyColumn columns={2}/>
 
-            <MediumImage id={3}/>
+            <MediumImage id={3} link="/microsoftdynamics"/>
             <EmptyColumn columns={1}/>
             <SmallImage id={4}/>
 

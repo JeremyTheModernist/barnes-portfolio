@@ -7,6 +7,7 @@ import Home from './Pages/Home/Home.js'
 import {Tres} from './Pages/Tres/Tres.js';
 import {Cohesion} from './Pages/Cohesion/Cohesion.js'
 import {Fluent} from './Pages/Fluent/Fluent.js'
+import {Dynamics} from './Pages/Dynamics/Dynamics.js'
 
 import {AppState} from './AppState.js';
 
@@ -39,6 +40,7 @@ class App extends React.Component{
             <Tres path="tressolutions"/>
             <Cohesion path="microsoftcohesion"/>
             <Fluent path="microsoftfluent"/>
+            <Dynamics path="microsoftdynamics"/>
           </Router>
         <Footer/>
       </>
