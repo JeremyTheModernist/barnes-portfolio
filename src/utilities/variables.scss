@@ -14,10 +14,10 @@
   text-decoration: none;
 }
 @mixin image-states(){
-  transition:.25s;
+  transition:.5s;
   opacity:1;
   &:hover{
-    opacity:.5;
+    opacity:.7;
   }
 }
 

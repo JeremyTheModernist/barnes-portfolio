@@ -4,7 +4,6 @@
   color:$primary-color;
   .footer__container{
     margin:4% 4% 8% 4%;
-
   }
   .footer__contact{
     font-size:map-get($type-ramp,md-mobile);
@@ -42,7 +41,7 @@
     line-height:map-get($leading-ramp,l);
     padding-top:map-get($margin-ramp,lg);
     padding-bottom:map-get($margin-ramp,lg);
-    border-top:1px solid rgba(0,0,0,.2);
+    border-top:1px solid $secondary-color;
   }
   .footer__bio{
     width:100%;

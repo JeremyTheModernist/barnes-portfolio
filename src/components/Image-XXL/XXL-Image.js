@@ -9,7 +9,7 @@ function XXLargeImage(props){
       <div className={`grid__item col-6`}>
         <Link to={`${props.link}`}>
           <ItemImage id={props.id}/>
-          {/* <ItemInformation id={props.id}/> */}
+          <ItemInformation id={props.id}/>
         </Link>
       </div>
     )
@@ -18,7 +18,7 @@ function XXLargeImage(props){
     return(
       <div className={`grid__item col-6`}>
           <ItemImage id={props.id}/>
-          {/* <ItemInformation id={props.id}/> */}
+          <ItemInformation id={props.id}/>
       </div>
     )
   }
