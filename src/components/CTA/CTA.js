@@ -4,10 +4,10 @@ import { Router, Link } from "@reach/router";
 
 export function CTA(props){
   return(
-    // props.home
-    // ?
-    // <div class="footer__contact"><a href="https://www.linkedin.com/in/barnesjer/" target="_blank">Let's Connect and Share Ideas</a></div>
-    // :
+    props.home
+    ?
+    <div class="footer__contact"></div>
+    :
     <div class="footer__contact"><Link to="/"><a>View all Projects</a></Link></div>
   )
 }
