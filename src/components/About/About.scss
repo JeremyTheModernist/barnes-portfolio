@@ -26,15 +26,19 @@
   }
   &__close{
     position:fixed;
-    right:10px;
-    top:10px;
     cursor:pointer;
+    right:0;
+    top:0;
     transition:.25s;
     padding:20px;
     &:hover{
       transform:rotate(90deg);
       transition:.25s;
       opacity:.5;
+    }
+    @include breakpoint(medium){
+      right:10px;
+      top:10px;
     }
   }
 }
