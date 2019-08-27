@@ -5,22 +5,29 @@
   height:100vh;
   left:0;
   top:0;
-  overflow:scroll;
+  font-family: HelveticaNowText-Medium;
+  background-color:#0D0D0D;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased;
+  overflow-y:scroll;
+  color:$primary-color;
   -webkit-overflow-scrolling: touch;
   &--visible{
     visibility: visible;
     transition:.45s;
-    background-color: rgba(255,255,255,1);
+    background-color:#0D0D0D;
+    opacity:1;
   }
   &--hidden{
     visibility: hidden;
     transition:.45s;
-    background-color: rgba(0,0,0,0);
+    background-color:#0D0D0D;
+    opacity:0;
   }
   &__close{
     position:fixed;
-    right:0px;
-    top:0px;
+    right:10px;
+    top:10px;
     cursor:pointer;
     transition:.25s;
     padding:20px;
@@ -46,7 +53,7 @@
     order:2;
     @include breakpoint(large){
       order:1;
-      width:60%;
+      width:44%;
     }
   }
   &__img{
@@ -55,7 +62,7 @@
     margin:8% 4% 4%;
     margin-left:auto;
     @include breakpoint(large){
-      width:28%;
+      width:44%;
       order:2;
       margin-top:4%;
     }
@@ -67,11 +74,13 @@
     @include css-reset;
     width:100%;
     color:$primary-color;
-    font-size:map-get($type-ramp,md-mobile);
-    margin:4% 0;
+    font-family:HelveticaNowDisplay-XBd;
+    font-size:map-get($type-ramp,xl)*1.5;
+    line-height: .75em;
+    margin:10% 0;
     @include breakpoint(medium){
       margin-bottom:map-get($margin-ramp,xl);
-      font-size:map-get($type-ramp,lg);
+      font-size:120px;
     }
     // @include breakpoint(large){
     //   width:46%;
@@ -80,26 +89,27 @@
   &__quote{
     font-size:map-get($type-ramp,md-mobile);
     color:$primary-color;
-    font-family:$noto;
-    // margin-right:4%;
-    // margin-left:4%;
-    margin-bottom:map-get($margin-ramp,md);
-    line-height: map-get($leading-ramp,m);
+    font-family:HelveticaNowDisplay-XBd;
+    width:100%;
+    margin-bottom:map-get($margin-ramp,lg);
+    line-height: map-get($leading-ramp,s);
     @include breakpoint(medium){
       font-size:map-get($type-ramp,lg);
     }
     @include breakpoint(large){
-      margin-top:map-get($margin-ramp,xxxl)*2.5;
-      font-size:map-get($type-ramp,xl);
+      margin-top:map-get($margin-ramp,xxxl)*1.5;
+      width:85%;
+      // font-size:map-get($type-ramp,xl);
       // max-width:80%;
+    }
+    span{
+      color:$secondary-color;
     }
   }
   &__description{
     @include css-reset;
-    display:flex;
-    flex-flow:row wrap;
-    color:$secondary-color;
-    font-size:map-get($type-ramp,md);
+    color:$primary-color;
+    font-size:18px;
     margin-bottom:map-get($margin-ramp,lg);
     line-height:map-get($leading-ramp,m);
   }
@@ -107,8 +117,7 @@
     width:100%;
     margin-right:0;
     @include breakpoint(large){
-      width:46%;
-      margin-right:4%;
+      width:85%;
     }
   }
   &__link{
