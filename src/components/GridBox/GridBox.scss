@@ -195,6 +195,7 @@ $grid__cols: 6;
   }
   .item__link{
     @include css-reset;
+    font-family:HelveticaNowText-Bold;
     color:$primary-color;
     font-size:map-get($type-ramp,md-mobile);
     transition:.35s;

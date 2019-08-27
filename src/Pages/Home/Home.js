@@ -37,8 +37,6 @@ class Home extends React.Component{
 
             <XXLargeImage id={204} link="/microsoftdynamics"/>
 
-            <CTA home={true}/>
-
           </GridBox>
         </div>
       </ScrollToTop>
