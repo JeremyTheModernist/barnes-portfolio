@@ -5,7 +5,8 @@ function Footer(props){
   return(
     <div class="footer">
     <div class="footer__container">
-      <div class="footer__contact"><Link to="/"><a>View All Projects</a></Link></div>
+      {/* <div class="footer__contact"><Link to="/"><a>View All Projects</a></Link></div> */}
+      {/* <div class="footer__contact"><Link to="/"><a>Let's Connect and Share Ideas</a></Link></div> */}
       <ul class="footer__byline">
         <li class="footer__bio">
           Jeremy Barnes is a design manager and front end developer working at Microsoft.

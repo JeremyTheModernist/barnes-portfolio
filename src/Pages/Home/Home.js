@@ -17,6 +17,7 @@ import About from '../../components/About/About.js'
 import Splash from '../../components/Splash/Splash.js'
 import ProjectOverview from '../../components/ProjectOverview/ProjectOverview.js'
 import ProjectBreakdown from '../../components/ProjectBreakdown/ProjectBreakdown.js'
+import {CTA} from '../../components/CTA/CTA.js'
 
 class Home extends React.Component{
 
@@ -35,6 +36,8 @@ class Home extends React.Component{
             <XXLargeImage id={203} link="/microsoftfluent"/>
 
             <XXLargeImage id={204} link="/microsoftdynamics"/>
+
+            <CTA home={true}/>
 
           </GridBox>
         </div>

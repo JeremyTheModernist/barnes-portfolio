@@ -18,6 +18,7 @@ import About from '../../components/About/About.js'
 import Splash from '../../components/Splash/Splash.js'
 import ProjectOverview from '../../components/ProjectOverview/ProjectOverview.js'
 import ProjectBreakdown from '../../components/ProjectBreakdown/ProjectBreakdown.js'
+import {CTA} from '../../components/CTA/CTA.js'
 
 export const Cohesion = () => {
   return(
@@ -79,6 +80,8 @@ export const Cohesion = () => {
         <EmptyColumn columns={1}/>
         <LargeImage id={36}/>
         <EmptyColumn columns={1}/>
+
+        <CTA/>
 
       </GridBox>
     </ScrollToTop>

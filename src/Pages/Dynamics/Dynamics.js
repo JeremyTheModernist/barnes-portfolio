@@ -18,6 +18,7 @@ import About from '../../components/About/About.js'
 import Splash from '../../components/Splash/Splash.js'
 import ProjectOverview from '../../components/ProjectOverview/ProjectOverview.js'
 import ProjectBreakdown from '../../components/ProjectBreakdown/ProjectBreakdown.js'
+import {CTA} from '../../components/CTA/CTA.js'
 
 export const Dynamics = () => {
   return(
@@ -60,9 +61,7 @@ export const Dynamics = () => {
 
         <XXLargeImage id={61}/>
 
-
-
-
+        <CTA/>
 
       </GridBox>
     </ScrollToTop>

@@ -1,0 +1,26 @@
+.footer__contact{
+  font-size:map-get($type-ramp,md-mobile);
+  font-family:HelveticaNowDisplay-XBd;
+  line-height:map-get($leading-ramp,l);
+  text-align:center;
+  width:100%;
+  margin:auto;
+  margin-bottom:map-get($margin-ramp,xl);
+  a{
+    text-decoration:none;
+    color:$primary-color;
+    transition:.25s ease-out;
+  }
+  a:hover{
+    color:$secondary-color;
+  }
+  @include breakpoint(medium){
+    font-size:map-get($type-ramp,lg);
+    width:100%;
+  }
+  @include breakpoint(large){
+    width:900px;
+    font-size:map-get($type-ramp,xl);
+    margin-bottom:map-get($margin-ramp,xxxl);
+  }
+}
