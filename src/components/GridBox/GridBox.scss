@@ -170,10 +170,14 @@ $grid__cols: 6;
     @include css-reset;
     font-family:HelveticaNowDisplay-XBd;
     font-size:map-get($type-ramp,lg);
-    margin-bottom:map-get($margin-ramp,xxs);
+    margin-top:-10px;
+    margin-bottom:map-get($margin-ramp,sm);
     color:$primary-color;
+    line-height:1em;
+    float:left;
     @include breakpoint(large){
       font-size:map-get($type-ramp,xl);
+      margin-top:auto;
     }
   }
   .item__subtitle{
@@ -193,13 +197,15 @@ $grid__cols: 6;
     @include css-reset;
     color:$primary-color;
     font-size:map-get($type-ramp,md-mobile);
-    float:right;
     transition:.35s;
+    display:none;
     &:hover{
       color:$secondary-color;
     }
     @include breakpoint(large){
       font-size:map-get($type-ramp,lg);
+      display:block;
+      float:right;
     }
   }
   // .item__image{

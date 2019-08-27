@@ -966,7 +966,7 @@ class AppState extends React.Component{
         id:200,
         link:true,
         content: {
-          title:'Tres Solutions',
+          title:'Tres Vessel Solutions',
           subtitle: 'Taking shipping and vessel analytics to a new level of sophistication and accuracy',
           description: null,
           src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
@@ -1033,7 +1033,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566784263/barnes-portfolio/02_D365_Components-Mobile_zwfwex.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
           }
         }
       },
