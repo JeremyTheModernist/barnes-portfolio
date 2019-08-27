@@ -30,7 +30,7 @@ class Home extends React.Component{
 
             <XXLargeImage id={200} link="/tressolutions"/>
 
-            <XXLargeImage id={201} link="/microsoftcohesion" />
+            <XXLargeImage id={202} link="/microsoftcohesion" />
 
             <XXLargeImage id={203} link="/microsoftfluent"/>
 

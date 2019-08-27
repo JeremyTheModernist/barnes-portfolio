@@ -826,12 +826,11 @@ class AppState extends React.Component{
           title:null,
           subtitle: null,
           description: null,
-
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566784263/barnes-portfolio/02_D365_Components-Mobile_zwfwex.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
           }
         }
       },
@@ -999,11 +998,11 @@ class AppState extends React.Component{
           title:'Microsoft Cohesion Team',
           subtitle: 'A global design language to span across and unite Microsoft Cloud Apps',
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566863171/barnes-portfolio/Frame_3_qguemj.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566924962/barnes-portfolio/00_CohesionCover_qpk40j.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566863171/barnes-portfolio/Frame_3_qguemj.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_40/v1566863171/barnes-portfolio/Frame_3_qguemj.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_40/v1566863171/barnes-portfolio/Frame_3_qguemj.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566924962/barnes-portfolio/00_CohesionCover_qpk40j.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566924962/barnes-portfolio/00_CohesionCover_qpk40j.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566924962/barnes-portfolio/00_CohesionCover_qpk40j.jpg',
           }
         }
       },
@@ -1011,7 +1010,7 @@ class AppState extends React.Component{
         id:203,
         link: true,
         content: {
-          title:'Microsoft Fluent Workshop',
+          title:'Microsoft Fluent Design',
           subtitle: `Defining a visionary path for Microsoft's New Design Language, Fluent`,
           description: null,
           src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900927/barnes-portfolio/00_Fluent-PowerBI_lopdon.jpg',
@@ -1029,11 +1028,11 @@ class AppState extends React.Component{
           title:'Microsoft Dynamics Design Language',
           subtitle: `Evolving one of Microsoft's largest Sale's product suite through a comprehensive design language`,
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566763223/barnes-portfolio/02_D365_Components_thaky0.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
           }
         }
       },
