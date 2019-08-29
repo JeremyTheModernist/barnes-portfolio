@@ -26,7 +26,16 @@ class About extends React.Component{
             </div>
           </div>
           <div className="aboutContent__img">
-            <img src="https://res.cloudinary.com/gestalt/image/upload/v1567038585/barnes-portfolio/01-Portrait-B_onckwf.jpg"></img>
+            <picture>
+              {/* the source media code only works if I'm not using the Lazy Load Image  */}
+              <source media="(min-width:1024px)" srcset="https://res.cloudinary.com/gestalt/image/upload/q_50/v1567038585/barnes-portfolio/01-Portrait-B_onckwf.jpg"/>
+              <source media="(min-width:500px)" srcset="https://res.cloudinary.com/gestalt/image/upload/q_50/v1567038585/barnes-portfolio/01-Portrait-B_onckwf.jpg"/>
+              <source media="(min-width:320px)" srcset="https://res.cloudinary.com/gestalt/image/upload/q_60,w_1000/v1567038585/barnes-portfolio/01-Portrait-B_onckwf.jpg"/>
+              <img src="https://res.cloudinary.com/gestalt/image/upload/v1567038585/barnes-portfolio/01-Portrait-B_onckwf.jpg"></img>
+              {/* Use Lazy Load image if you want to load resources in one at a time. */}
+              {/* <LazyLoadImage effect="opacity" src={item.content.breakpointImgs.large}/> */}
+            </picture>
+
           </div>
         </div>
       </div>
