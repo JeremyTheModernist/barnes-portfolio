@@ -34,7 +34,7 @@ class AppState extends React.Component{
       {
         id:'cohesion',
         name:'Microsoft Cohesion Team',
-        disciplines:['Disciplines','Design Systems','Web Design','Branding','Name + Strategy','Ambassador'],
+        disciplines:['Disciplines','Design Systems','Web Design','Branding','Naming + Strategy','Ambassador'],
         challenge: "Consistency is a common challenge for all product suites. Customers often use related products in concert, which means they encounter common experiences, like navigation, forms, settings. If these experiences are consistent, users can learn once and apply everywhere. If not, there is additional cognitive load every time they have to relearn a common pattern. The Cohesion Team was tasked with the creation of a component library that would support the rapid design and development of common and consistent experiences for product teams.",
         solution:"Naming and branding is an essential part of every team. It shows others your purpose and approach. So to initiate the presence of our team within the organization, we did a series of name and brand explorations. We landed on two: Supply and Method. Supply was my focus. It showcased our stature towards product teams: we were there to empower and provide, not to dictate. Controls were our business, experiences were theres. Once we landed a name, we swiftly built out a collection of common controls available on the web and code ready.",
         breakdowns: [
@@ -78,8 +78,8 @@ class AppState extends React.Component{
         breakdowns: [
           {
             id:1,
-            columnOne: 'One of the greater challenges for this design language team was establishing our deliverables and shipping cadence. So, we assessed the entire D365 product landscape and aggregated a list of the most universal controls and design fundamentals.',
-            columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+            columnOne: 'One of the greater challenges for this design language team was establishing our deliverables and shipping cadence. We assessed the entire D365 product landscape and aggregated a list of the most common controls and design fundamentals to establish the basis of our beta release.',
+            columnTwo: 'From here, we operationalized the process to ensure that product teams could and would adopt this new design language. We established regular reviews with products teams to give them an opportunity to see progress and provide feedback. This layer of transparency was essential for our success.'
           },
           {
             id:2,
