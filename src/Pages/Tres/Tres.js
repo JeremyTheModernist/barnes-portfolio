@@ -39,7 +39,7 @@ export const Tres = () => {
 
         <EmptyColumn columns={1}/>
         <Quote colNum={5}>
-          When we came to Jeremy we knew we needed a redesign. We weren’t sure exactly which direction to take it, but Jeremy ran with it, and brought us a complete rebrand and identity to boot for every piece.
+          Your talent speaks for itself, as the praise for the new design has been effusive. It's been a fun project and has already benefited us greatly!
           <br/><br/>
           <span className={"grid__quote--author"}>— Aaron Holton, Tres Director</span>
         </Quote>
@@ -52,7 +52,7 @@ export const Tres = () => {
         <EmptyColumn columns={1}/>
         <XLargeImage id={6}/>
 
-        <ProjectBreakdown id={1}/>
+        <ProjectBreakdown id={1} projectName="tres solutions"/>
 
         <EmptyColumn columns={1}/>
         <XLargeImage id={7}/>
@@ -90,7 +90,7 @@ export const Tres = () => {
         <LargeImage id={14}/>
         <EmptyColumn columns={1}/>
 
-        <ProjectBreakdown id={2}/>
+        <ProjectBreakdown id={2} projectName="tres solutions"/>
 
         <EmptyColumn columns={1}/>
         <LargeImage id={16}/>
@@ -108,7 +108,7 @@ export const Tres = () => {
         <XXLargeImage id={1}/>
 
         <CTA/>
-        
+
       </GridBox>
     </ScrollToTop>
   )

@@ -21,21 +21,12 @@ class About extends React.Component{
             </div>
             <div className="aboutContent__description">
               <p className="description__copy">
-                I grew up in the rural splendor of Bartlett's Ferry, Alabama. With the Chattahoochee River
-                running right past my back door, my surroundings reeled me right in to an overwhelming
-                appreciation of nature’s intricacies. So, I began drawing and painting at an early
-                age trying to capture the detail in the beauty I saw all around me.
-                I became more focused as an artist when my husband and
-                I moved to Florida in 2010. With Florida’s tropical birds,
-                flowers, and sunsets persuading me, I was once again wooed
-                by nature to draw and to paint. We recently returned to
-                Alabama and I am excited to be back in the surroundings
-                which inspired me as an artist in my youth.
+                This quote was recorded half a century ago, and yet it’s just as true as the day designer Ben Bos stated it. Today’s world overflows with data and information. At every turn, people are bombarded by messaging. I have worked with a range of companies. From fast-pace start ups and advertising agencies, to top tier corporations and design studios, IBM and now Microsoft. But regardless of medium, intent, or experience I have always found myself tasked with the essential challenge of creating clear, lucid experiences for customers. And, as of late, creating organizational clarity amidst an ever changing business environment. How do you distill complex processes like turning excel sheets into lively data visualizations or create coherency from a range of legacy Sales products? I have found that pivotal to creating usable, compelling experiences is an understanding that people are constantly trying to orient themselves with their environment. And simplicity is key to that goal. How might I sum myself up as a designer? I strive for organization from chaos and orientation amidst ambiguity.
               </p>
             </div>
           </div>
           <div className="aboutContent__img">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Wim_Crouwel_1976.jpg"></img>
+            <img src="https://res.cloudinary.com/gestalt/image/upload/v1567038585/barnes-portfolio/01-Portrait-B_onckwf.jpg"></img>
           </div>
         </div>
       </div>

@@ -45,7 +45,7 @@ export const Dynamics = () => {
         <EmptyColumn columns={1}/>
 
         <XXLargeImage id={56}/>
-        <ProjectBreakdown id={1}/>
+        <ProjectBreakdown id={1} projectName="dynamics"/>
         <XXLargeImage id={57}/>
 
         <XLargeImage id={58}/>

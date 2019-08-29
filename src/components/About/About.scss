@@ -114,7 +114,7 @@
     @include css-reset;
     color:$primary-color;
     font-size:18px;
-    margin-bottom:map-get($margin-ramp,lg);
+    margin-bottom:map-get($margin-ramp,xxxl);
     line-height:map-get($leading-ramp,m);
   }
   .description__copy{

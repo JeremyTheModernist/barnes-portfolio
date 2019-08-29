@@ -15,14 +15,14 @@ class AppState extends React.Component{
       {
         id:'tres solutions',
         name:'Tres Vessel Analytics',
-        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
+        disciplines:['Disciplines','Content Strategy','Responsive Web Design','Branding','CMS architecture'],
         challenge:"Tres Solutions is a data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
         solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
         breakdowns: [
           {
             id:1,
             columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
-            columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+            columnTwo: 'As with all really great collaborations, the process continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication that detailed their offerings.'
           },
           {
             id:2,
@@ -34,14 +34,14 @@ class AppState extends React.Component{
       {
         id:'cohesion',
         name:'Microsoft Cohesion Team',
-        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
-        challenge:"Tres Solutions is a data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
-        solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
+        disciplines:['Disciplines','Design Systems','Web Design','Branding','Name + Strategy','Ambassador'],
+        challenge: "Consistency is a common challenge for all product suites. Customers often use related products in concert, which means they encounter common experiences, like navigation, forms, settings. If these experiences are consistent, users can learn once and apply everywhere. If not, there is additional cognitive load every time they have to relearn a common pattern. The Cohesion Team was tasked with the creation of a component library that would support the rapid design and development of common and consistent experiences for product teams.",
+        solution:"Naming and branding is an essential part of every team. It shows others your purpose and approach. So to initiate the presence of our team within the organization, we did a series of name and brand explorations. We landed on two: Supply and Method. Supply was my focus. It showcased our stature towards product teams: we were there to empower and provide, not to dictate. Controls were our business, experiences were theres. Once we landed a name, we swiftly built out a collection of common controls available on the web and code ready.",
         breakdowns: [
           {
             id:1,
-            columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
-            columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
+            columnOne: 'One of the great tasks of design is to structure information in an organized manner. To be productive, people need order and clarity. Across all of our products, information had slight to major variations in the way it was displayed. The way users interacted with content was not entirely predictable, making it difficult to establish expectations for interaction.',
+            columnTwo: 'Cohesion tackled the grid with tenacity. I examined all of our products and the various needs for displaying content. My four main considerations were: tile size, content copy, tile actions, and imagery. The solution I arrived at accommodated a wide range of content, long strings of text, dynamic layouts, and responsive behavior for all screen sizes.'
           },
           {
             id:2,
@@ -53,9 +53,9 @@ class AppState extends React.Component{
       {
         id:'fluent',
         name:'Microsoft Fluent',
-        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
-        challenge:"Tres Solutions is a data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
-        solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
+        disciplines:['Disciplines','Design Systems','Vision Setting','Branding','Creative Direction'],
+        challenge:"Corporate identity systems have long existed as a part of the fabric of the commercial world. Designers first started developing them as a way to unify corporate collateral and messaging. More recently, larger tech companies have invested in design systems as a way to maintain and scale consistent user experiences. Material for Google, Carbon for IBM, and now Fluent for Microsoft. When Fluent first launched, it was set forth as a series of visual principles. Now it was time to flesh these ideas out and apply them in a pragmatic way to Microsoft’s products.",
+        solution:"After Fluent’s initial announcement, designers from across Microsoft congregated for a workshop. We applied Fluent principles to our respective product spaces and gradually curated the best expressions. These products included Visual Studio Code, a code editor for developers, Azure, our cloud platform, Power BI, our business analytics offering, and PowerApps, an app builder. We intentionally pushed the boundaries of possibilities in favor of discovery. The outcome was a series of screens that layed the foundation for the future of fluent.",
         breakdowns: [
           {
             id:1,
@@ -72,13 +72,13 @@ class AppState extends React.Component{
       {
         id:'dynamics',
         name:'D365 Design Language',
-        disciplines:['Disciplines','Identity','Responsive Web Design','Branding','Content Strategy'],
-        challenge:"Tres Solutions is a data analytics company supplying insightful metrics and feedback to vessel industries world wide. When Tres approached me, they we’re looking for a complete web redesign. The challenge was not only to create a brand image that differentiated Tres from their competitors, but more importantly, to create a visual and verbal language that would build trust with potential customers and communicate the value of Tres.",
-        solution:"My first step with Tres was to understand the unique value propositions of their company, and perform a competitive analysis. From there, I built a series of moodboards and initial design directions oriented around my findings. These initial directions would go onto define the larger rebrand and site architecture for Tres. The result was a comprehensive website detailing the unique offerings of Tres’ product and the value they offer customers.",
+        disciplines:['Disciplines','Team Leadership','Design Systems','Stakeholder Communication',"System's Ambassador",'Creative Direction'],
+        challenge:"Often a designer’s work operates in one of two areas: creating a vision from the ground up or modifying and evolving an existing product. Dynamics is a prime example of the second case. Dynamics is Microsoft’s Sales offering and has a huge customer base. It’s existed for a number of years, which means it has an existing infrastructure which that can be difficult to scale and change. As a suite, many of it’s experiences have become fractured. We needed to modify, consolidate, and improve Dynamic's experiences while maintaining parts of it’s current ecosystem.",
+        solution:"To address this problem, we knew we needed a common set of UI controls, a design language library. A consistent set of tools would empower developers and designers to build cross product experiences that worked in harmony. We began this effort by pulling together a team of design representatives from across all of Dynamics. We built a mega-file that showcased this new design language applied across all Dynamics products, 15 in total. From here, I led a team of 10 designers to build a robust, comprehensive control library that would service all Dynamics products.",
         breakdowns: [
           {
             id:1,
-            columnOne: 'Tres Solutions was one of those rare, but powerful combinations of client and designer goals. At every turn of the project we found ourselves holding content, user experience, and visual communication in equal tension to ensure the success of the project.',
+            columnOne: 'One of the greater challenges for this design language team was establishing our deliverables and shipping cadence. So, we assessed the entire D365 product landscape and aggregated a list of the most universal controls and design fundamentals.',
             columnTwo: 'As with all really great processes, the design continued to reveal new directions that we could take with imagery, color, and layout. The final result was a powerful combination of precise imagery and clear communication.'
           },
           {
