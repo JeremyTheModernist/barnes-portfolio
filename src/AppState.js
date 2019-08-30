@@ -97,8 +97,8 @@ class AppState extends React.Component{
         breakdowns: [
           {
             id:1,
-            columnOne: 'One of the greater challenges for this design language team was establishing our deliverables and shipping cadence. We assessed the entire D365 product landscape and aggregated a list of the most common controls and design fundamentals to establish the basis of our beta release.',
-            columnTwo: 'From here, we operationalized the process to ensure that product teams could and would adopt this new design language. We established regular reviews with products teams to give them an opportunity to see progress and provide feedback. This layer of transparency was essential for our success.'
+            columnOne: 'Graphic Ephemera is a personal collection of self-initiated work. There is a certain plateau one hits sometimes in their professional work. An acceptance of what the work should be. Since I started design, I always found myself wanting to push my work, to stretch the limits of my own creative comfort. So I experiment to test those boundaries and my assumptions.',
+            columnTwo: `This first project, the Typographer’s Journal, was the result of my obsession with the written word and those who have guided it’s visual trajectory. The journal would be an exploration of those great minds who introduced and changed the typographic landscape: Jan Tschihold’s Asymmetric Typography, Josef Muller Brockmann’s Grid, Louise Fili's expressive Italian type.`
           },
           {
             id:2,
