@@ -8,6 +8,7 @@ import {Tres} from './Pages/Tres/Tres.js';
 import {Cohesion} from './Pages/Cohesion/Cohesion.js'
 import {Fluent} from './Pages/Fluent/Fluent.js'
 import {Dynamics} from './Pages/Dynamics/Dynamics.js'
+import {GraphicEphemera} from './Pages/GraphicEphemera/GraphicEphemera.js'
 
 import {AppState} from './AppState.js';
 
@@ -41,6 +42,7 @@ class App extends React.Component{
             <Cohesion path="microsoftcohesion"/>
             <Fluent path="microsoftfluent"/>
             <Dynamics path="microsoftdynamics"/>
+            <GraphicEphemera path="graphicephemera"/>
           </Router>
         <Footer/>
       </>

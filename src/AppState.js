@@ -88,6 +88,25 @@ class AppState extends React.Component{
           }
         ]
       },
+      {
+        id:'graphicephemera',
+        name:'Graphic Ephemera',
+        disciplines:null,
+        challenge:null,
+        solution:null,
+        breakdowns: [
+          {
+            id:1,
+            columnOne: 'One of the greater challenges for this design language team was establishing our deliverables and shipping cadence. We assessed the entire D365 product landscape and aggregated a list of the most common controls and design fundamentals to establish the basis of our beta release.',
+            columnTwo: 'From here, we operationalized the process to ensure that product teams could and would adopt this new design language. We established regular reviews with products teams to give them an opportunity to see progress and provide feedback. This layer of transparency was essential for our success.'
+          },
+          {
+            id:2,
+            columnOne: 'As a part of my process with Tres Solutions, I explored a range of visual collateral and identity pieces. The above mocks showcase some of the original splash screens and logos that came out of this exploration. Ultimately, Tres Solutions kept their established logo for it’s visual recognition with existing customers.',
+            columnTwo: 'Systems are the foundation of strong, scalable, and cohesive visual identities. So, as the website design unfolded, I distilled and catalogued a concise set of design parameters. This ensured the integrity of the system and that Tres’ new voice was consistently on target for their customers and onboarding users.'
+          }
+        ]
+      },
     ],
     information: [
       {
@@ -962,15 +981,225 @@ class AppState extends React.Component{
         }
       },
       {
+        id:63,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1567102542/barnes-portfolio/00_TypeJournal-01_csu0rn.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1567102542/barnes-portfolio/00_TypeJournal-01_csu0rn.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567102542/barnes-portfolio/00_TypeJournal-01_csu0rn.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567102542/barnes-portfolio/00_TypeJournal-01_csu0rn.jpg',
+          }
+        }
+      },
+      {
+        id:64,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1567102541/barnes-portfolio/01_TypeJournal-01_zdmgj7.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1567102541/barnes-portfolio/01_TypeJournal-01_zdmgj7.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567102541/barnes-portfolio/01_TypeJournal-01_zdmgj7.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567102541/barnes-portfolio/01_TypeJournal-01_zdmgj7.jpg',
+          }
+        }
+      },
+      {
+        id:65,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1567102542/barnes-portfolio/02_TypeJournal-01_q6f66g.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_3400,q_40/v1567102542/barnes-portfolio/02_TypeJournal-01_q6f66g.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567102542/barnes-portfolio/02_TypeJournal-01_q6f66g.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567102542/barnes-portfolio/02_TypeJournal-01_q6f66g.jpg',
+          }
+        }
+      },
+      {
+        id:66,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1567176814/barnes-portfolio/04b_TypeJournal-01_pv0wcj.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_3400,q_40/v1567176814/barnes-portfolio/04b_TypeJournal-01_pv0wcj.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567176814/barnes-portfolio/04b_TypeJournal-01_pv0wcj.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567176814/barnes-portfolio/04b_TypeJournal-01_pv0wcj.jpg',
+          }
+        }
+      },
+      {
+        id:67,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1567111553/barnes-portfolio/05_TheoryPractice-01_th6pik.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1567111553/barnes-portfolio/05_TheoryPractice-01_th6pik.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/05_TheoryPractice-01_th6pik.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/05_TheoryPractice-01_th6pik.jpg',
+          }
+        }
+      },
+      {
+        id:68,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567111553/barnes-portfolio/06_Helium-01_ju5nqi.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567111553/barnes-portfolio/06_Helium-01_ju5nqi.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/06_Helium-01_ju5nqi.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/06_Helium-01_ju5nqi.jpg',
+          }
+        }
+      },
+      {
+        id:69,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567111553/barnes-portfolio/09_MaxBill-01_qd6v9o.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567111553/barnes-portfolio/09_MaxBill-01_qd6v9o.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/09_MaxBill-01_qd6v9o.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/09_MaxBill-01_qd6v9o.jpg',
+          }
+        }
+      },
+      {
+        id:70,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567111553/barnes-portfolio/07_RuderPoster-01_grir4y.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567111553/barnes-portfolio/07_RuderPoster-01_grir4y.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/07_RuderPoster-01_grir4y.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/07_RuderPoster-01_grir4y.jpg',
+          }
+        }
+      },
+      {
+        id:71,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567111553/barnes-portfolio/08_ChangeBook-01_qg4gok.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567111553/barnes-portfolio/08_ChangeBook-01_qg4gok.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/08_ChangeBook-01_qg4gok.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567111553/barnes-portfolio/08_ChangeBook-01_qg4gok.jpg',
+          }
+        }
+      },
+      {
+        id:72,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567185113/barnes-portfolio/01_GraphikBook_ssas0a.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567185113/barnes-portfolio/01_GraphikBook_ssas0a.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185113/barnes-portfolio/01_GraphikBook_ssas0a.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185113/barnes-portfolio/01_GraphikBook_ssas0a.jpg',
+          }
+        }
+      },
+      {
+        id:73,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567190726/barnes-portfolio/10B_Method-01_rrwurv.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567190726/barnes-portfolio/10B_Method-01_rrwurv.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567190726/barnes-portfolio/10B_Method-01_rrwurv.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567190726/barnes-portfolio/10B_Method-01_rrwurv.jpg',
+          }
+        }
+      },
+      {
+        id:74,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567185179/barnes-portfolio/11_TopTwenty-01_dur7ab.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567185179/barnes-portfolio/11_TopTwenty-01_dur7ab.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185179/barnes-portfolio/11_TopTwenty-01_dur7ab.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185179/barnes-portfolio/11_TopTwenty-01_dur7ab.jpg',
+          }
+        }
+      },
+      {
+        id:75,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567185093/barnes-portfolio/06_m83_pgqxgs.png',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567185093/barnes-portfolio/06_m83_pgqxgs.png',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185093/barnes-portfolio/06_m83_pgqxgs.png',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185093/barnes-portfolio/06_m83_pgqxgs.png',
+          }
+        }
+      },
+      {
+        id:76,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567190708/barnes-portfolio/12B_TheModernists-01_qht8vo.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567190708/barnes-portfolio/12B_TheModernists-01_qht8vo.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567190708/barnes-portfolio/12B_TheModernists-01_qht8vo.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567190708/barnes-portfolio/12B_TheModernists-01_qht8vo.jpg',
+          }
+        }
+      },
+      {
+        id:77,
+        content: {
+          title:null,
+          subtitle: null,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_35/v1567185093/barnes-portfolio/00_WimCrouwel_mhjpdm.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1567185093/barnes-portfolio/00_WimCrouwel_mhjpdm.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185093/barnes-portfolio/00_WimCrouwel_mhjpdm.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567185093/barnes-portfolio/00_WimCrouwel_mhjpdm.jpg',
+          }
+        }
+      },
+      {
         id:200,
         link:true,
         content: {
           title:'Tres Vessel Solutions',
           subtitle: 'Taking shipping and vessel analytics to a new level of sophistication and accuracy',
           description: null,
-          src: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_2000,q_40/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200,q_35/v1565900779/barnes-portfolio/29_Tres-Mobile-Collage_l5dxde.jpg',
           }
@@ -1033,6 +1262,21 @@ class AppState extends React.Component{
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_40/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1566922521/barnes-portfolio/17_D365_Components_om5skl.jpg',
+          }
+        }
+      },
+      {
+        id:205,
+        link:true,
+        content: {
+          title:'Graphic Ephemera',
+          subtitle: `Evolving one of Microsoft's largest Sale's product suite through a comprehensive design language`,
+          description: null,
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_35/v1567192685/barnes-portfolio/13_GraphicEphemera_Cover-01_da8ypz.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_3000,q_40/v1567192685/barnes-portfolio/13_GraphicEphemera_Cover-01_da8ypz.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567192685/barnes-portfolio/13_GraphicEphemera_Cover-01_da8ypz.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_1200/v1567192685/barnes-portfolio/13_GraphicEphemera_Cover-01_da8ypz.jpg',
           }
         }
       },

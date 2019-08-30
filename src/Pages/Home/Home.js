@@ -37,6 +37,8 @@ class Home extends React.Component{
 
             <XXLargeImage id={204} link="/microsoftdynamics"/>
 
+            <XXLargeImage id={205} link="/graphicephemera"/>
+
             <CTA home={true}/>
 
           </GridBox>
