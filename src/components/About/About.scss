@@ -113,9 +113,12 @@
   &__description{
     @include css-reset;
     color:$primary-color;
-    font-size:18px;
+    font-size:16px;
     margin-bottom:map-get($margin-ramp,xxxl);
     line-height:map-get($leading-ramp,m);
+    @include breakpoint(large){
+      font-size:18px;
+    }
   }
   .description__copy{
     width:100%;
