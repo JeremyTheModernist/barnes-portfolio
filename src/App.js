@@ -9,6 +9,7 @@ import {Cohesion} from './Pages/Cohesion/Cohesion.js'
 import {Fluent} from './Pages/Fluent/Fluent.js'
 import {Dynamics} from './Pages/Dynamics/Dynamics.js'
 import {GraphicEphemera} from './Pages/GraphicEphemera/GraphicEphemera.js'
+import {AllProjects} from './Pages/AllProjects/AllProjects.js'
 
 import {AppState} from './AppState.js';
 
@@ -43,6 +44,7 @@ class App extends React.Component{
             <Fluent path="microsoftfluent"/>
             <Dynamics path="microsoftdynamics"/>
             <GraphicEphemera path="graphicephemera"/>
+            <AllProjects path="allprojects"/>
           </Router>
         <Footer/>
       </>
