@@ -24,6 +24,11 @@
     &:hover{
       color:$secondary-color;
     }
+    :visited,
+    :focus
+    {
+      color:$primary-color;
+    }
     @include breakpoint(large){
       margin-left:0;
     }
@@ -32,5 +37,13 @@
     margin-right:auto;
     margin-left:4%;
     color:$primary-color;
+    &:hover{
+      color:$secondary-color;
+    }
+    :visited,
+    :focus
+    {
+      color:$primary-color;
+    }
   }
 }

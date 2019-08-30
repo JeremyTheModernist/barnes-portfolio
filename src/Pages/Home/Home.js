@@ -39,7 +39,7 @@ class Home extends React.Component{
 
             <XXLargeImage id={205} link="/graphicephemera"/>
 
-            <CTA home={true}/>
+            <CTA allprojects={true}/>
 
           </GridBox>
         </div>

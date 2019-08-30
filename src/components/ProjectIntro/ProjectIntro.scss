@@ -41,11 +41,13 @@
     cursor:pointer;
     width:92%;
     transition:.5s;
+    :visited,
+    :focus,
+    {
+      color:$primary-color;
+    }
     &:hover{
       color:$secondary-color;
-    }
-    &:focus{
-      color:$primary-color;
     }
     @include breakpoint(medium){
       width:16%;
