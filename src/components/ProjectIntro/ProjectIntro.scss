@@ -10,7 +10,13 @@
     margin-bottom: map-get($margin-ramp,sm);
   }
   &__header{
-    margin: 0 auto 60px auto;
+    display:flex;
+    flex-flow:row wrap;
+    align-items:baseline;
+  }
+  &__title{
+    margin-top:0;
+    margin-bottom:60px;
     font-weight:normal;
     font-size:map-get($type-ramp,xl)*1.5;
     font-family:HelveticaNowDisplay-XBd;
@@ -19,7 +25,31 @@
     margin-left:4%;
     @include breakpoint(medium){
       font-size:map-get($type-ramp,lg) * 3;
-      margin: 0 auto 120px auto;
+      margin-bottom:120px;
+      width:76%;
+    }
+  }
+  &__toggle{
+    color:$primary-color;
+    font-weight:normal;
+    font-family:HelveticaNowText-Bold;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    text-align:right;
+    margin-right:4%;
+    margin-left:auto;
+    cursor:pointer;
+    width:92%;
+    transition:.5s;
+    &:hover{
+      color:$secondary-color;
+    }
+    &:focus{
+      color:$primary-color;
+    }
+    @include breakpoint(medium){
+      width:16%;
+      text-align:right;
     }
   }
   &__challenge,

@@ -27,7 +27,7 @@ export class AllProjects extends React.Component{
           <GridBox>
 
             <div class="projectintro">
-              <h1 class="projectintro__header">
+              <h1 class="projectintro__title">
                 All Projects
               </h1>
             </div>

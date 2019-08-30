@@ -6,6 +6,7 @@ class AppState extends React.Component{
   state = {
     fullscreen:false,
     about:false,
+    moreInfo: false,
     selected: {
       src: null,
       title: null,
@@ -1288,6 +1289,13 @@ class AppState extends React.Component{
         }
       })
     console.log(this.state.about)
+  },
+    toggleInfo: () => {
+      this.setState((state) => {
+        return {
+          moreInfo: !state.moreInfo
+        }
+      })
     }
   }
   render(){

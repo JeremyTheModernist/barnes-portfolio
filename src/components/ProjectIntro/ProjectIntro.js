@@ -11,11 +11,18 @@ function ProjectIntro(props){
       {
         context => {
           var project = context.projects.filter(project => project.id === projectName )[0];
-          return (
+          return context.moreInfo
+          ?
+          (
             <div class="projectintro">
-              <h1 class="projectintro__header">
+            <div class="projectintro__header">
+              <h1 class="projectintro__title">
                 {project.name}
               </h1>
+              <h4 class="projectintro__toggle" onClick={() => context.toggleInfo()}>
+                - Hide Overview
+              </h4>
+            </div>
             <ul class="projectintro__overview">
               <ul class="projectintro__disciplines">
                 {mapDisciplines(project)}
@@ -31,6 +38,17 @@ function ProjectIntro(props){
             </ul>
             </div>
           )
+          :
+          <div class="projectintro">
+            <div class="projectintro__header">
+              <h1 class="projectintro__title">
+                {project.name}
+              </h1>
+              <h4 class="projectintro__toggle" onClick={() => context.toggleInfo()}>
+                + Show Overview
+              </h4>
+            </div>
+          </div>
         }
       }
 
