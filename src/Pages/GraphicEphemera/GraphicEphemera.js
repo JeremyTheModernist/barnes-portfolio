@@ -34,17 +34,11 @@ export const GraphicEphemera = () => {
         <MediumImage id={63}/>
         <MediumImage id={64}/>
 
-        <ProjectBreakdown id={1} projectName="graphicephemera"/>
-
         <XXLargeImage id={65}/>
-        <XXLargeImage id={66}/>
 
-        <EmptyColumn columns={1}/>
-        <Quote colNum={5}>
-          Design can serve many purposes and objectives. Sometimes it must inform. Sometimes it must persuade. Sometimes it must identify. And yet, others it must captivate our attention, even before it states its message.
-          <br/><br/>
-          <span className={"grid__quote--author"}>— Personal Thoughts</span>
-        </Quote>
+        <ProjectBreakdown id={1} projectName="graphicephemera"/>
+        
+        <XXLargeImage id={66}/>
 
         <MediumImage id={67}/>
         <MediumImage id={68}/>

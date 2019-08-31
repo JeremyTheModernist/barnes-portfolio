@@ -59,11 +59,6 @@ export const Cohesion = () => {
         <LargeImage id={31}/>
         <SmallImage id={32}/>
 
-        <EmptyColumn columns={1}/>
-        <Quote colNum={5}>
-          This grid was built on 6 columns and a series of easily divisible proportions. The two main goals were to accomodate a range of user content and provide a responsive system that worked across all screens.
-        </Quote>
-
         <XXLargeImage id={38}/>
 
         <MediumImage id={33}/>
