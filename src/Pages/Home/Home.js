@@ -35,9 +35,9 @@ class Home extends React.Component{
 
             <XXLargeImage id={203} link="/microsoftfluent"/>
 
-            <XXLargeImage id={204} link="/microsoftdynamics"/>
-
             <XXLargeImage id={205} link="/graphicephemera"/>
+
+            <XXLargeImage id={204} link="/microsoftdynamics"/>
 
             <CTA allprojects={true}/>
 
