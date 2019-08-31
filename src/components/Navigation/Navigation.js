@@ -11,7 +11,7 @@ function Navigation(){
           return (
             <div className="navigation">
               <ul className="navigation__layout">
-                <li className="navigation__item navigation__item--title">
+                <li className="navigation__item navigation__item--title" onClick={() => context.hideInfo()}>
                   <Link to="/">Jeremy Barnes</Link>
                 </li>
                 <li className="navigation__item" onClick={() => context.toggleAbout()}>

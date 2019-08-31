@@ -1290,13 +1290,20 @@ class AppState extends React.Component{
       })
     console.log(this.state.about)
   },
-    toggleInfo: () => {
+  toggleInfo: () => {
       this.setState((state) => {
         return {
           moreInfo: !state.moreInfo
         }
       })
-    }
+    },
+  hideInfo: () => {
+      this.setState((state) => {
+        return{
+          moreInfo: false
+        }
+      })
+  }
   }
   render(){
     return (
