@@ -20,9 +20,9 @@ function ProjectIntro(props){
                 {project.name}
               </h1>
               <div className="projectintro__toggle" onClick={() => context.toggleInfo()}>
-                <button className="projectintro__toggle-hide">
+                <div className="projectintro__toggle-hide">
                   - Hide Overview
-                </button>
+                </div>
               </div>
             </div>
             <ul className="projectintro__overview">
@@ -47,9 +47,9 @@ function ProjectIntro(props){
                 {project.name}
               </h1>
               <div className="projectintro__toggle" onClick={() => context.toggleInfo()}>
-                <button className="projectintro__toggle-show">
+                <div className="projectintro__toggle-show">
                   + Show Overview
-                </button>
+                </div>
               </div>
             </div>
           </div>
