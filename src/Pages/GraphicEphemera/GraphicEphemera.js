@@ -26,7 +26,7 @@ export const GraphicEphemera = () => {
       <GridBox>
 
         <div class="projectintro">
-          <h1 class="projectintro__title">
+          <h1 class="projectintro__title projectintro__title-noOverview">
             Graphic Ephemera:<br/>Personal Artifacts,<br/>2015 —
           </h1>
         </div>
@@ -37,7 +37,7 @@ export const GraphicEphemera = () => {
         <XXLargeImage id={65}/>
 
         <ProjectBreakdown id={1} projectName="graphicephemera"/>
-        
+
         <XXLargeImage id={66}/>
 
         <MediumImage id={67}/>

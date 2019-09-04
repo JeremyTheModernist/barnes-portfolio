@@ -40,11 +40,12 @@ $grid__cols: 6;
     width:100%;
     display:flex;
     flex-flow:row wrap;
-    margin-top:map-get($margin-ramp,xxxl)*2;
+    margin-top:map-get($margin-ramp,xxxl)*1.5;
     border-top: 1px solid darken($primary-color,50%);
     @include breakpoint(medium){
       flex-direction:row nowrap;
       font-size:map-get($type-ramp,md);
+      margin-top:map-get($margin-ramp,xxxl)*2;
     }
     li{
       max-width:100%;

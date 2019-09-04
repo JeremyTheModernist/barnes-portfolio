@@ -31,6 +31,12 @@
       font-size:map-get($type-ramp,lg) * 3;
       width:76%;
     }
+    &-noOverview{
+      margin-bottom:60px;
+      @include breakpoint(large){
+        margin-bottom:120px;
+      }
+    }
   }
   &__toggle{
     margin-right:4%;
@@ -46,7 +52,7 @@
       background-color:$theme-color;
       border-radius:28px;
       box-sizing:border-box;
-      padding:12px;
+      padding:8px 16px;
       color:$primary-color;
       font-weight:normal;
       font-family:HelveticaNowText-Bold;
