@@ -41,7 +41,10 @@ $secondary-color:darken($primary-color,40%);
 // $highlight-color:#33FFDD;
 $highlight-color:darken($primary-color,40%);
 
-$theme-color:#33FFDD;
+$theme-color:darken($primary-color,70%);
+$theme-color-hover:darken($primary-color,80%);
+// $theme-color:darken(#18a0fb,0%);
+// $theme-color-hover:darken(#18a0fb,20%);
 
 $roboto: 'Roboto', sans-serif;
 $noto: 'Noto Serif TC', serif;

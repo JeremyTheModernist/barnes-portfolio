@@ -14,39 +14,43 @@ function ProjectIntro(props){
           return context.moreInfo
           ?
           (
-            <div class="projectintro">
-            <div class="projectintro__header">
-              <h1 class="projectintro__title">
+            <div className="projectintro">
+            <div className="projectintro__header">
+              <h1 className="projectintro__title">
                 {project.name}
               </h1>
-              <h4 class="projectintro__toggle" onClick={() => context.toggleInfo()}>
-                - Hide Overview
-              </h4>
+              <div className="projectintro__toggle" onClick={() => context.toggleInfo()}>
+                <button className="projectintro__toggle-hide">
+                  - Hide Overview
+                </button>
+              </div>
             </div>
-            <ul class="projectintro__overview">
-              <ul class="projectintro__disciplines">
+            <ul className="projectintro__overview">
+              <ul className="projectintro__disciplines">
                 {mapDisciplines(project)}
               </ul>
-              <li class="projectintro__challenge">
-                <h3 class="challenge__header"> Challenge </h3>
+              <li className="projectintro__challenge">
+                <h3 className="challenge__header"> Challenge </h3>
                   {project.challenge}
               </li>
-              <li class="projectintro__solution">
-                <h3 class="challenge__header"> Solution </h3>
+              <li className="projectintro__solution">
+                <h3 className="challenge__header"> Solution </h3>
                   {project.solution}
               </li>
             </ul>
             </div>
           )
           :
-          <div class="projectintro">
-            <div class="projectintro__header">
-              <h1 class="projectintro__title">
+          <div className="projectintro">
+            <div className="projectintro__header">
+              <h1 className="projectintro__title">
                 {project.name}
               </h1>
-              <h4 class="projectintro__toggle" onClick={() => context.toggleInfo()}>
-                + Show Overview
-              </h4>
+              <div className="projectintro__toggle" onClick={() => context.toggleInfo()}>
+                <button className="projectintro__toggle-show">
+                  + Show Overview
+                </button>
+              </div>
             </div>
           </div>
         }
