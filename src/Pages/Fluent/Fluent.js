@@ -40,7 +40,7 @@ export const Fluent = () => {
 
         <EmptyColumn columns={1}/>
         <Quote colNum={5}>
-          A significant part of the early Fluent efforts was to push the threshold of design possibilities. We specefically broke convention to drive the vision forward. While experimental in nature, these designs would lay a foundation for more concrete thinking within Fluent Design.
+          A significant part of the early Fluent efforts was to push the threshold of design possibilities. We specifically broke convention to drive the vision forward. While experimental in nature, these designs would lay a foundation for more concrete thinking within Fluent Design.
           <br/><br/>
           <span className={"grid__quote--author"}>— Fluent Design</span>
         </Quote>
